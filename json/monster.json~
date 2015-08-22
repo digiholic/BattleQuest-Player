@@ -1,0 +1,206 @@
+[  
+   {  
+      "ID":"1",
+      "name":"Tomb Raider",
+      "maxHealth":"8",
+      "pClass":"monster-explorer"
+   },
+   {  
+      "ID":"8",
+      "name":"Desperado",
+      "maxHealth":"6",
+      "pClass":"monster-pistolier"
+   },
+   {  
+      "ID":"9",
+      "name":"Relic Hunter",
+      "maxHealth":"7",
+      "pClass":"monster-maskedthief"
+   },
+   {  
+      "ID":"10",
+      "name":"Statuary Guardian",
+      "maxHealth":"24",
+      "pClass":"monster-stoneguardian"
+   },
+   {  
+      "ID":"11",
+      "name":"Mummified Priest",
+      "maxHealth":"8",
+      "pClass":"monster-mummypriest"
+   },
+   {  
+      "ID":"12",
+      "name":"Mummified Warrior",
+      "maxHealth":"6",
+      "pClass":"monster-mummysoldier"
+   },
+   {  
+      "ID":"13",
+      "name":"Cursed Mural",
+      "maxHealth":"24",
+      "pClass":""
+   },
+   {  
+      "ID":"14",
+      "name":"High Priest",
+      "maxHealth":"30",
+      "pClass":"monster-mummybishop"
+   },
+   {  
+      "ID":"15",
+      "name":"Mummified Hound",
+      "maxHealth":"4",
+      "pClass":"monster-mummydog"
+   },
+   {  
+      "ID":"16",
+      "name":"Treasure Golem",
+      "maxHealth":"40",
+      "pClass":"monster-treasuregolem"
+   },
+   {  
+      "ID":"17",
+      "name":"ADAM",
+      "maxHealth":"60",
+      "pClass":"monster-adam"
+   },
+   {  
+      "ID":"26",
+      "name":"Flameturret",
+      "maxHealth":"9",
+      "pClass":"monster-turret"
+   },
+   {  
+      "ID":"27",
+      "name":"Gun Turret",
+      "maxHealth":"6",
+      "pClass":"monster-soundblaster"
+   },
+   {  
+      "ID":"28",
+      "name":"Protohomunculus",
+      "maxHealth":"8",
+      "pClass":"monster-poltergeist"
+   },
+   {  
+      "ID":"29",
+      "name":"Killbot",
+      "maxHealth":"15",
+      "pClass":"monster-walker"
+   },
+   {  
+      "ID":"30",
+      "name":"Security Hologram",
+      "maxHealth":"5",
+      "pClass":"monster-hologram"
+   },
+   {  
+      "ID":"31",
+      "name":"Homunculus",
+      "maxHealth":"7",
+      "pClass":"monster-homunculus"
+   },
+   {  
+      "ID":"32",
+      "name":"Kilgrem's Last Experiment",
+      "maxHealth":"40",
+      "pClass":"monster-servitor"
+   },
+   {  
+      "ID":"33",
+      "name":"Framboise",
+      "maxHealth":"60",
+      "pClass":"monster-framboisemlph"
+   },
+   {  
+      "ID":"34",
+      "name":"Ariel",
+      "maxHealth":"40",
+      "pClass":"monster-arielmlph"
+   },
+   {  
+      "ID":"35",
+      "name":"Lucida",
+      "maxHealth":"40",
+      "pClass":"monster-lucidamlph"
+   },
+   {  
+      "ID":"36",
+      "name":"Candide",
+      "maxHealth":"40",
+      "pClass":"monster-candidemlph"
+   },
+   {  
+      "ID":"37",
+      "name":"Dolores",
+      "maxHealth":"60",
+      "pClass":"monster-doloresmlph"
+   },
+   {  
+      "ID":"38",
+      "name":"Sera",
+      "maxHealth":"60",
+      "pClass":"monster-seramlph"
+   },
+   {  
+      "ID":"39",
+      "name":"Nabatina",
+      "maxHealth":"120",
+      "pClass":"monster-nabatinamlph"
+   },
+   {  
+      "ID":"40",
+      "name":"Monolith",
+      "maxHealth":"80",
+      "pClass":"monster-monolith"
+   },
+   {  
+      "ID":"41",
+      "name":"Destroyer",
+      "maxHealth":"120",
+      "pClass":"monster-destroyer"
+   },
+   {  
+      "ID":"42",
+      "name":"Gilt Titan",
+      "maxHealth":"150",
+      "pClass":"monster-irontitan"
+   },
+   {  
+      "ID":"43",
+      "name":"Zone Warrior Varles",
+      "maxHealth":"80",
+      "pClass":"monster-planeslaver"
+   },
+   {  
+      "ID":"44",
+      "name":"Protochaon",
+      "maxHealth":"90",
+      "pClass":"monster-singularity"
+   },
+   {  
+      "ID":"45",
+      "name":"Doppelvore",
+      "maxHealth":"120",
+      "pClass":"monster-aberrant"
+   },
+   {  
+      "ID":"46",
+      "name":"Left Hand - Ambition",
+      "maxHealth":"40",
+      "pClass":"monster-boriana"
+   },
+   {  
+      "ID":"47",
+      "name":"Right Hand - Power",
+      "maxHealth":"40",
+      "pClass":"monster-coriana"
+   },
+   {  
+      "ID":"48",
+      "name":"Oriana Apotheosis",
+      "maxHealth":"200",
+      "pClass":"monster-aoriana"
+   }
+]

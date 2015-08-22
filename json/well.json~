@@ -1,0 +1,482 @@
+{
+  "dungeon": {
+    "name": "The Well of Souls",
+    "description": "\"With the Crown of Malephaise, we'll have all the power we need to defeat Havoc, Oriana, Greyheart-- or anyone else who threatens the world,\" Vice Dean Byron Krane explains dismissively. \"All we need now is for someone to descend into the Afterworld and collect it for us once we open the gate. That's where you come in...\"<br/><br/>\r\nThe Gate to the Afterworld is guarded by the seven mythical Princesses of Death, each possessing a different piece of the Daemon King Malephaise's spirit. You will need to descend through the seven spheres of the Well and defeat each princess in order to claim the Crown.",
+    "tileset": "hell",
+    "starting_gold": "450",
+    "total_characters": "3",
+    "tag": "0",
+    "floor": [
+      {
+        "name": "Sphere 1 - Framboise Malephaise",
+        "startlocation": "2",
+        "description": "Framboise Rolls two dice during the ante phase. Opponents who reveal priorities matching these numbers cannot hit her with attacks.<br/>\nWhen she would be stunned, remove one of these rolls instead of stunning her. If she is stunned again after both are already removed, her actual attack is stunned.",
+        "floor_size": "large",
+        "monsters": "0,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "1",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 2 - Ariel Malephaise",
+        "startlocation": "2",
+        "description": "Roll two dice during ante. Ariel has a bonus based on each roll.<br/>\n<table><tr><td>1- +4 Priority</td><td>2- <b>Before:</b> Advance up to 1</td></tr>\n<tr><td>3- +0~2 Range</td><td>4- <b>Armor 3</b></td></tr>\n<tr><td>5- Adjacent opponents cannot retreat</td><td>6- Roll a new attack. Other bonuses apply to both attacks.\n</td></tr>\n</table>",
+        "floor_size": "large",
+        "monsters": "1,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "2",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 3 - Lucida Malephaise",
+        "startlocation": "2",
+        "description": "At the end of each ante phase, roll 2 dice. Lucida steals 3 life from one fighter at each of these ranges, if there is one. The stolen life adds to Lucida's own life. In addition, she has +2 Power for the rest of the beat each time she steals life.",
+        "floor_size": "large",
+        "monsters": "2,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "3",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 4 - Candide Malephaise",
+        "startlocation": "2",
+        "description": "At the start of each ante, randomly select an player. That player's attacks hit the nearest ally in range, rather than Candide. Her \"ally\" gains the voice bonus from her attacks. In addition, her \"ally\" always opts to take damage instead of Candide whenever he could by normal multiplayer rules. Her ally continues to move as normal, and can occupy spaces with fighters, but not Candide. He calculates advance and retreat based on fighters, not Candide.",
+        "floor_size": "large",
+        "monsters": "3,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "4",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 5 - Dolores Malephaise",
+        "startlocation": "2",
+        "description": "At the end of each beat, rearrange all players and Dolores randomly on the board, leaving one space between each one (ex. _ A _ B _ C _ D _)",
+        "floor_size": "large",
+        "monsters": "4,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "5",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 6 - Sera Malephaise",
+        "startlocation": "2",
+        "description": "Each time Sera deals damage to a player, that player's attack pair is removed from the game (He cannot execute it after this) and Sera has +1 Power permanently. (These effects stop working after the duel ends)",
+        "floor_size": "large",
+        "monsters": "5,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "6",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      },
+      {
+        "name": "Sphere 7 - Nabatina Malephaise",
+        "startlocation": "2",
+        "description": "Nabatina has Stun Immunity and Multi-Attack. An player who is reduced to zero life continues fighting as an ally of Nabatina, playing a random attack pair each beat. This ally has unlimited life, a -1~0 range bonus, and Stun Immunity. He can be revived with First Aid from his allies. He continues to move as a player, and shares Stun Guard and Soak as normal.",
+        "floor_size": "large",
+        "monsters": "6,7",
+        "adds": "0",
+        "space_classes": "",
+        "bg_classes": "2,hell-door;6,hell-mountain;9,hell-castle"
+      }
+    ],
+    "monster": [
+      {
+        "name": "Framboise",
+        "maxHealth": "60",
+        "pClass": "monster-framboisemlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Remembrance",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "7",
+            "description": "Executes again at each remaining priority rolled by Framboise.<br/>\r\n<b>Before:</b> Advance up to 1",
+            "chance": "1"
+          },
+          {
+            "name": "Seize the Reins",
+            "attackrange": "2-5",
+            "power": "6",
+            "priority": "5",
+            "description": "<b>Stun Guard 3</b><br/>\r\n+4 Power against Opponents affected by Consult The Eye<br/>\r\n<b>End:</b> Advance 3",
+            "chance": "1"
+          },
+          {
+            "name": "Annihilation",
+            "attackrange": "1-6",
+            "power": "5",
+            "priority": "1",
+            "description": "<b>Stun Guard 7</b><br/>\r\n<b>Start:</b> Advance as far as possible.<br/>\r\nThis attack has +12 power if both Framboise's die results are the same. (Removed dice still count)",
+            "chance": "1"
+          },
+          {
+            "name": "Burn the Future",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "4",
+            "description": "<b>Stun Guard 4, Soak 1</b><br/>\r\n<b>Hit:</b> The opponent discards his hand.<br/>\r\n<b>End:</b> Retreat up to 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Extinguish the Past",
+            "attackrange": "3",
+            "power": "10",
+            "priority": "6",
+            "description": "<b>Stun Guard 5</b><br/>\r\n<b>Hit:</b> The opponent is stunned and removes his attack pair from the game until the end of the battle.",
+            "chance": "1"
+          },
+          {
+            "name": "Challenge the Sun",
+            "attackrange": "5",
+            "power": "16",
+            "priority": "2",
+            "description": "<b>Armor 8</b><br/>\r\n<b>Start:</b> Retreat up to 4 spaces.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Ariel",
+        "maxHealth": "40",
+        "pClass": "monster-arielmlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Flesh Betrays",
+            "attackrange": "1",
+            "power": "0",
+            "priority": "5",
+            "description": "<b>Armor 3, Stun Guard 4</b><br/>\r\n<b>Before:</b> Advance up to 3<br/>\r\n<b>Hit:</b> Gain a bonus to Power equal to the target's Power.",
+            "chance": "1"
+          },
+          {
+            "name": "Strength",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "6",
+            "description": "<b>Armor 3, Stun Guard 5</b><br/>\r\n<b>Before:</b> Advance up to 2 spaces.<br/>\r\n<b>Hit:</b> Push the opponent as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Bone Breaker",
+            "attackrange": "1",
+            "power": "9",
+            "priority": "1",
+            "description": "<b>Armor 6, Stun Guard 3</b><br/>\r\nIgnore Soak<br/>\r\n<b>Before:</b> Advance up to 4 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Final Repose",
+            "attackrange": "1",
+            "power": "16",
+            "priority": "4",
+            "description": "<b>Armor 6, Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Rust Flourish",
+            "attackrange": "1",
+            "power": "6",
+            "priority": "3",
+            "description": "Opponents with higher priority do not hit you.<br/>\r\n<b>Before:</b> Advance up to 2",
+            "chance": "1"
+          },
+          {
+            "name": "Death Knell",
+            "attackrange": "1",
+            "power": "10",
+            "priority": "0",
+            "description": "<b>Start:</b> Retreat as far as possible.<br/>\r\n<b>Before:</b> Advance up to 3 spaces",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Lucida",
+        "maxHealth": "40",
+        "pClass": "monster-lucidamlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Hunger",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Armor 5</b><br/>\r\n<b>Before:</b> Advance up to 3<br/>\r\n<b>Hit:</b> The opponent cannot move for the rest of this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Devour",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "2",
+            "description": "<b>Armor 6, Stun Guard 4</b><br/>\r\n<b>Before:</b> Pull each opponent up to 3 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Second Helping",
+            "attackrange": "1-2",
+            "power": "2",
+            "priority": "7",
+            "description": "<b>Reveal:</b> Lucida steals life again from each player at range 1, and gains +2 Power from each player she steals from.",
+            "chance": "1"
+          },
+          {
+            "name": "Gorge",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "5",
+            "description": "<b>Armor 4, Stun Guard 4</b><br/>\r\n<b>Reveal:</b> Opponents affected by Lucida's life steal have -3 Power\r\n<b>Before:</b> Advance up to 2 spaces<br/>",
+            "chance": "1"
+          },
+          {
+            "name": "Sharpening Teeth",
+            "attackrange": "1",
+            "power": "6",
+            "priority": "2",
+            "description": "<b>Armor 3</b><br/>\r\n<b>Start:</b> Advance as far as possible<br/>\r\n<b>Before:</b> Advance up to 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Division",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Armor 3</b><br/>\r\n<b>Start:</b> Push each opponent as far as possible.<br/>\r\n<b>Before:</b> Advance as far as possible",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Candide",
+        "maxHealth": "40",
+        "pClass": "monster-candidemlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Whisper",
+            "attackrange": "1-3",
+            "power": "3",
+            "priority": "5",
+            "description": "<b>Reveal:</b> Non-allied players have -2 power.<br/>\r\n<b>Voice:</b> -1~0 range and +2 Power",
+            "chance": "1"
+          },
+          {
+            "name": "Demand",
+            "attackrange": "1",
+            "power": "6",
+            "priority": "4",
+            "description": "<b>Hit:</b> Candide gains 4 life.<br/>\r\n<b>Voice:</b> -1~+1 Range",
+            "chance": "1"
+          },
+          {
+            "name": "Curse",
+            "attackrange": "1-4",
+            "power": "3",
+            "priority": "3",
+            "description": "<b>Start:</b> Your ally moves directly adjacent to you.<br/>\r\n<b>Voice:</b> -1~0 Range and Stun Immunity. +1 Power for each damage you take this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Scorn",
+            "attackrange": "3-5",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Start:</b> Retreat as far as possible.<br/>\r\n<b>Voice, Start:</b> Move directly to a space beside Candide.",
+            "chance": "1"
+          },
+          {
+            "name": "Threaten",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "6",
+            "description": "<b>Before:</b> Advance up to 3 spaces.<br/>\r\n<b>Voice:</b> -1~0 Range, +4 Power against range 0 enemies.",
+            "chance": "1"
+          },
+          {
+            "name": "Blaspheme",
+            "attackrange": "3",
+            "power": "12",
+            "priority": "8",
+            "description": "This attack ignores soak and stun guard.<br/>\r\n<b>Voice:</b> Candide's range includes your range.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Dolores",
+        "maxHealth": "60",
+        "pClass": "monster-doloresmlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Black Chains",
+            "attackrange": "2-4",
+            "power": "6",
+            "priority": "7",
+            "description": "<b>Stun Guard 4</b><br/>\r\nOpponents cannot move during this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Drag Down",
+            "attackrange": "X",
+            "power": "8",
+            "priority": "4",
+            "description": "<b>Stun Guard 4</b><br/>\r\nX is the space occupied by the farthest opponent.",
+            "chance": "1"
+          },
+          {
+            "name": "Shackle Wall",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Armor 6</b><br/>\r\nEach time a player moves out of a space, he loses 1 life and has -1 Power",
+            "chance": "1"
+          },
+          {
+            "name": "Dark Binding",
+            "attackrange": "3-7",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Armor 5</b><br/>\r\n<b>Start:</b> Push each opponent up to 3 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "The Rack",
+            "attackrange": "1-3",
+            "power": "3",
+            "priority": "4",
+            "description": "<b>Armor 4, Stun Guard 5</b><br/>\r\n<b>Hit:</b> Push each opponent as far as possible. +1 Power for each space pushed this way.",
+            "chance": "1"
+          },
+          {
+            "name": "Iron Maiden",
+            "attackrange": "2-8",
+            "power": "7",
+            "priority": "0",
+            "description": "<b>Multi-attack, Armor 11</b>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Sera",
+        "maxHealth": "60",
+        "pClass": "monster-seramlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Soul Collector",
+            "attackrange": "1-6",
+            "power": "1",
+            "priority": "1",
+            "description": "<b>Stun Guard 6, Multi-Attack</b><br/>\r\n<b>End:</b> Retreat as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Deathly Paling",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "9",
+            "description": "<b>Hit:</b> The player has -5 Power, and Sera has +5 Power next beat.<br/>\r\n<b>End:</b> Advance 3",
+            "chance": "1"
+          },
+          {
+            "name": "Blackheart",
+            "attackrange": "1-4",
+            "power": "3",
+            "priority": "9",
+            "description": "The Power bonus from Sera's Open the Heart is doubled.<br/>\r\n<b>End:</b> Retreat 2",
+            "chance": "1"
+          },
+          {
+            "name": "Gather Souls",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "0",
+            "description": "Sera's Power increases by +3 permanently.<br/>\r\n<b>End:</b> Advance as far as possible.",
+            "chance": "1"
+          },
+          {
+            "name": "Cascade",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Multi-attack, Armor 6</b><br/>\r\n<b>End:</b> Retreat 4",
+            "chance": "1"
+          },
+          {
+            "name": "Soulwall",
+            "attackrange": "3-8",
+            "power": "7",
+            "priority": "2",
+            "description": "<b>Multi-attack</b><br/>\r\nSera has armor equal to her current Power Bonus, or 5, whichever is higher.<br/>\r\n<b>End:</b> Advance 5",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Nabatina",
+        "maxHealth": "120",
+        "pClass": "monster-nabatinamlph",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "The Destroyer",
+            "attackrange": "1-2",
+            "power": "15",
+            "priority": "2",
+            "description": "<b>After:</b> Advance up to 3",
+            "chance": "1"
+          },
+          {
+            "name": "The Endless",
+            "attackrange": "3-5",
+            "power": "8",
+            "priority": "4",
+            "description": "<b>Start:</b> Retreat 3 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "The Authority",
+            "attackrange": "X",
+            "power": "6",
+            "priority": "5",
+            "description": "X is the space occupied by the nearest opponent AND the range of his attack pair calculated from his space (in both directions)<br/>\r\n<b>After:</b> Advance 5 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "The Inverse",
+            "attackrange": "4-8",
+            "power": "4",
+            "priority": "2",
+            "description": "<b>Start:</b> Retreat as far as possible.<br/>\r\n<b>Hit:</b> Push the opponent as far as possible.",
+            "chance": "1"
+          },
+          {
+            "name": "The Reward",
+            "attackrange": "2-6",
+            "power": "20",
+            "priority": "1",
+            "description": "Nabatina has -1 Power for each point of damage she has taken this beat.<br/>\r\n<b>End:</b> Advance 3 spaces.",
+            "chance": "1"
+          },
+          {
+            "name": "The Arcane",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "5",
+            "description": "<b>After:</b> Divide the nearest player's life in half (round up) and divide it between his living allies (they cannot exceed maximum life).<br/>\r\nThat player's life becomes 0.",
+            "chance": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

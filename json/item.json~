@@ -1,0 +1,282 @@
+[  
+   {  
+      "ID":"1",
+      "name":"Life Potion",
+      "type":"Consumable",
+      "cost":"10",
+      "css-class":"item-lifepot",
+      "description":"<b>Ante:<\/b> Regain 4 life"
+   },
+   {  
+      "ID":"2",
+      "name":"Mana Elixir",
+      "type":"Consumable",
+      "cost":"10",
+      "css-class":"item-manapot",
+      "description":"<b>Ante:<\/b> Regain a token of your choice"
+   },
+   {  
+      "ID":"3",
+      "name":"Spirits",
+      "type":"Consumable",
+      "cost":"5",
+      "css-class":"item-spirits",
+      "description":"<b>Ante:<\/b> Switch your discard piles"
+   },
+   {  
+      "ID":"4",
+      "name":"Metabolic Booster",
+      "type":"Consumable",
+      "cost":"10",
+      "css-class":"item-speedpot",
+      "description":"<b>Ante:<\/b> +4 Priority"
+   },
+   {  
+      "ID":"5",
+      "name":"Liquid Lightning",
+      "type":"Consumable",
+      "cost":"20",
+      "css-class":"item-telepot",
+      "description":"<b>Ante:<\/b> Move directly to any space"
+   },
+   {  
+      "ID":"6",
+      "name":"Bottled Rage",
+      "type":"Consumable",
+      "cost":"5",
+      "css-class":"item-ragepot",
+      "description":"<b>Ante:<\/b> +2 Power"
+   },
+   {  
+      "ID":"7",
+      "name":"Shield Tonic",
+      "type":"Consumable",
+      "cost":"25",
+      "css-class":"item-shieldpot",
+      "description":"<b>Ante:<\/b> <b>Stun Immunity<\/b>"
+   },
+   {  
+      "ID":"8",
+      "name":"Limit Breaker",
+      "type":"Consumable",
+      "cost":"30",
+      "css-class":"item-limit",
+      "description":"<b>Ante:<\/b> Activate your finisher this beat instead of setting an attack pair."
+   },
+   {  
+      "ID":"9",
+      "name":"Arcane Eye",
+      "type":"Consumable",
+      "cost":"30",
+      "css-class":"item-eye",
+      "description":"<b>Ante:<\/b> Roll attacks before setting your attack pair."
+   },
+   {  
+      "ID":"10",
+      "name":"Power Glove",
+      "type":"Trinket",
+      "cost":"20",
+      "css-class":"item-glove",
+      "description":"<b>Ante:<\/b> +1 Power"
+   },
+   {  
+      "ID":"11",
+      "name":"Sprint Shoes",
+      "type":"Trinket",
+      "cost":"15",
+      "css-class":"item-shoes",
+      "description":"<b>Ante:<\/b> +1 Priority"
+   },
+   {  
+      "ID":"12",
+      "name":"Phase Cloak",
+      "type":"Trinket",
+      "cost":"45",
+      "css-class":"item-cloak",
+      "description":"<b>Ante:<\/b> Choose a range other than your current range to any opponent. Attacks at that range do not hit you this beat."
+   },
+   {  
+      "ID":"13",
+      "name":"Autodeflector",
+      "type":"Trinket",
+      "cost":"50",
+      "css-class":"item-autodeflector",
+      "description":"<b>Ante:<\/b> <b>Soak 2<\/b>"
+   },
+   {  
+      "ID":"14",
+      "name":"Displacer Charm",
+      "type":"Trinket",
+      "cost":"30",
+      "css-class":"item-charm",
+      "description":"<b>Ante:<\/b> Move 1 space"
+   },
+   {  
+      "ID":"15",
+      "name":"Healing Stone",
+      "type":"Trinket",
+      "cost":"10",
+      "css-class":"item-stone",
+      "description":"<b>Ante:<\/b> Regain 1 life"
+   },
+   {  
+      "ID":"16",
+      "name":"Dark Rosary",
+      "type":"Trinket",
+      "cost":"20",
+      "css-class":"item-rosary",
+      "description":"<b>Ante:<\/b> Ignore life loss done to you by opponents this beat."
+   },
+   {  
+      "ID":"17",
+      "name":"Silver Shroud",
+      "type":"Trinket",
+      "cost":"10",
+      "css-class":"item-shroud",
+      "description":"<b>Ante:<\/b> Ignore all penalties to priority applied to you this beat"
+   },
+   {  
+      "ID":"18",
+      "name":"Skyfeather",
+      "type":"Trinket",
+      "cost":"80",
+      "css-class":"item-feather",
+      "description":"<b>Ante:<\/b> Move directly to any space"
+   },
+   {  
+      "ID":"19",
+      "name":"Unbreakable Box",
+      "type":"Trinket",
+      "cost":"20",
+      "css-class":"item-box",
+      "description":"<b>Ante:<\/b> If you are defeated this beat, remove this item from the game, then your life becomes 1 and you are stunned."
+   },
+   {  
+      "ID":"20",
+      "name":"Red Mask",
+      "type":"Trinket",
+      "cost":"50",
+      "css-class":"item-mask",
+      "description":"<b>Ante:<\/b> <b>Stun Guard 7<\/b>\r\n\r\n+2 Power the first time you are hit this beat."
+   },
+   {  
+      "ID":"21",
+      "name":"Shuttered Lantern",
+      "type":"Trinket",
+      "cost":"50",
+      "css-class":"item-lantern",
+      "description":"<b>Ante:<\/b> -1 Power and -2 Priority.\r\n\r\n<b>Damage:<\/b> The opponent is stunned. "
+   },
+   {  
+      "ID":"22",
+      "name":"Leather Armor",
+      "type":"Armor",
+      "cost":"5",
+      "css-class":"item-leather",
+      "description":"Life increases to 25"
+   },
+   {  
+      "ID":"23",
+      "name":"Bronze Armor",
+      "type":"Armor",
+      "cost":"15",
+      "css-class":"item-bronze",
+      "description":"Life increases to 30"
+   },
+   {  
+      "ID":"24",
+      "name":"Iron Armor",
+      "type":"Armor",
+      "cost":"30",
+      "css-class":"item-iron",
+      "description":"Life increases to 35"
+   },
+   {  
+      "ID":"25",
+      "name":"Steel Armor",
+      "type":"Armor",
+      "cost":"50",
+      "css-class":"item-steel",
+      "description":"Life increases to 40"
+   },
+   {  
+      "ID":"26",
+      "name":"Diamond Armor",
+      "type":"Armor",
+      "cost":"75",
+      "css-class":"item-diamond",
+      "description":"Life increases to 45"
+   },
+   {  
+      "ID":"27",
+      "name":"Vital Silver Armor",
+      "type":"Armor",
+      "cost":"100",
+      "css-class":"item-vSilver",
+      "description":"Life increases to 50"
+   },
+   {  
+      "ID":"28",
+      "name":"Henchman",
+      "type":"Relic",
+      "cost":"40",
+      "css-class":"item-henchman",
+      "description":"Draw the top 5 cards from the Strikers Deck, and add one to your party, then discard others. You may use this Striker during the dungeon."
+   },
+   {  
+      "ID":"29",
+      "name":"Extra Costume DLC",
+      "type":"Relic",
+      "cost":"10",
+      "css-class":"item-costume",
+      "description":"Use one of your hero's Alternate Unique Abilities instead of their regular Unique Ability for this dungeon."
+   },
+   {  
+      "ID":"30",
+      "name":"The Contract",
+      "type":"Relic",
+      "cost":"75",
+      "css-class":"item-contract",
+      "description":"Use your hero's EX Unique Ability instead of their regular Unique Ability for this dungeon. Does not come with any EX Bases."
+   },
+   {  
+      "ID":"31",
+      "name":"The Higher Authority",
+      "type":"Relic",
+      "cost":"150",
+      "css-class":"item-authority",
+      "description":"Use your hero's Almighty Unique Ability instead of their regular Unique Ability for this dungeon. Does not come with any Almighty Bases."
+   },
+   {  
+      "ID":"32",
+      "name":"Key Item A",
+      "type":"Key",
+      "cost":"0",
+      "css-class":"item-key",
+      "description":"Some dungeons have special Key items. Add this to your inventory to represent them."
+   },
+   {  
+      "ID":"33",
+      "name":"Key Item B",
+      "type":"Key",
+      "cost":"0",
+      "css-class":"item-key",
+      "description":"Some dungeons have special Key items. Add this to your inventory to represent them."
+   },
+   {  
+      "ID":"34",
+      "name":"Key Item C",
+      "type":"Key",
+      "cost":"0",
+      "css-class":"item-key",
+      "description":"Some dungeons have special Key items. Add this to your inventory to represent them."
+   },
+   {  
+      "ID":"35",
+      "name":"Key Item D",
+      "type":"Key",
+      "cost":"0",
+      "css-class":"item-key",
+      "description":"Some dungeons have special Key items. Add this to your inventory to represent them."
+   }
+]

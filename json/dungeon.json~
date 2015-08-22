@@ -1,0 +1,50 @@
+[  
+   {  
+      "ID":"3",
+      "name":"Magister Kilgrem's Laboratory",
+      "description":"Magister Kilgrem owned a remote laboratory on the islands off the northern coast of Relecour. After not hearing from him for two years, the Magisterial Council has finally decided to set out a bounty for any adventurers who can bring back news of Kilgrem and his fate.",
+      "tileset":"lab",
+      "starting_gold":"150",
+      "total_characters":"2",
+      "monster_list":"26,27,28,29,30,31,32",
+      "tag":"1",
+      "share":"1",
+      "creator_id":""
+   },
+   {  
+      "ID":"4",
+      "name":"The Well of Souls",
+      "description":"\"With the Crown of Malephaise, we'll have all the power we need to defeat Havoc, Oriana, Greyheart-- or anyone else who threatens the world,\" Vice Dean Byron Krane explains dismissively. \"All we need now is for someone to descend into the Afterworld and collect it for us once we open the gate. That's where you come in...\"<br\/><br\/>\r\nThe Gate to the Afterworld is guarded by the seven mythical Princesses of Death, each possessing a different piece of the Daemon King Malephaise's spirit. You will need to descend through the seven spheres of the Well and defeat each princess in order to claim the Crown.",
+      "tileset":"hell",
+      "starting_gold":"450",
+      "total_characters":"3",
+      "monster_list":"33,34,35,36,37,38,39",
+      "tag":"0",
+      "share":"1",
+      "creator_id":""
+   },
+   {  
+      "ID":"5",
+      "name":"The Temple of the Sun",
+      "description":"During the ancient Draconic Wars, the Dragon King Greyheart fought against and killed the Machine God Mak'terix. Mak'terix's body came to rest in the center of the Sanghalese Desert, where a massive temple was built around it by his priests.\r\n\r\nThe Reliquary is an ancient order that collects dangerous and unstable relics, like those that are sealed deep within the temple. They have paid handsomely to have your exploration party retrieve whatever relics they can find within the heart of the temple.\r\n\r\nThis is a 3-man tag team dungeon. One player will control all three characters. The heroes collectively have 200 Gold with which to outfit themselves for the dungeon.",
+      "tileset":"tomb",
+      "starting_gold":"200",
+      "total_characters":"3",
+      "monster_list":"8,9,1,10,11,12,13,14,15,16,17",
+      "tag":"1",
+      "share":"1",
+      "creator_id":""
+   },
+   {  
+      "ID":"6",
+      "name":"Beyond The Gate",
+      "description":"\"The time has come, Planestalkers,\" Grand Marshal Kaitlyn Van Sorrel addresses the assembly. \"Oriana has declared war on our world, and we must respond in kind. We may not possess the power or weapons to destroy her once and for all, but we can send a message that she won't forget for another thousand years! Now, with me, to the battlefield Beyond the Gate!\"<br\/>\r\n<br\/>\r\nIn this Dungeon, players may set themselves up in the arena however they wish. All Bosses in this dungeon have 'Multi-Attack' on all attacks.",
+      "tileset":"gate",
+      "starting_gold":"1000",
+      "total_characters":"4",
+      "monster_list":"40,41,42,43,44,45,46,47,48",
+      "tag":"0",
+      "share":"1",
+      "creator_id":""
+   }
+]

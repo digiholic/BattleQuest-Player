@@ -1,0 +1,492 @@
+{
+  "dungeon": {
+    "name": "The Crenellated Spire",
+    "description": "The mages of Amalao are forbidden to perform spells that give life to the land, but Archmage Demarq defied these commands and created an artifact known as the Phatasmagoric Flame, which brings to life elementals bent on destruction. The counselors of Amalao have sent you to the top of the Crenellated Spire, so that you might destroy the Phantasmagoric Flame and bring Demarq to justice for his crimes.",
+    "tileset": "spire",
+    "starting_gold": "200",
+    "total_characters": "2",
+    "tag": "0",
+    "floor": [
+      {
+        "name": "Entryway",
+        "startlocation": "5",
+        "description": "Complete this floor in 6 beats or fewer to acquire a Key",
+        "floor_size": "large",
+        "monsters": "0,7;1,3",
+        "adds": "0",
+        "space_classes": "",
+        "next": "1",
+        "bg_classes": "5,spire-door"
+      },
+      {
+        "name": "Floor 2",
+        "startlocation": "5",
+        "description": "Complete this floor in 7 beats or fewer to acquire a Key",
+        "floor_size": "large",
+        "monsters": "1,2;1,7;1,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "2",
+        "bg_classes": "5,spire-door"
+      },
+      {
+        "name": "Floor 3",
+        "startlocation": "1",
+        "description": "Complete this floor with at least one party member taking no damage to acquire a Key",
+        "floor_size": "large",
+        "monsters": "2,4;0,6;0,8",
+        "adds": "0",
+        "space_classes": "",
+        "next": "3",
+        "bg_classes": "1,spire-door"
+      },
+      {
+        "name": "Spire Vault A",
+        "startlocation": "1",
+        "description": "You come upon a room filled with Locked Chests. You can spend 1 Key per effect to get that effect.<br/>\n<br/>\n<b>New Weapon!</b> - One fighter gains a Beta or Delta Base of choice (swapping out the matching Normal Base)<br/>\n<b>New Armor!</b> - One fighter's armor is upgraded to the next level, and he gains 5 life.<br/>\n<b>New Trinket!</b> - Gain the 'Sprint Shoes' or 'Power Glove' Trinket.",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "4",
+        "bg_classes": ""
+      },
+      {
+        "name": "Floor 4",
+        "startlocation": "2",
+        "description": "Complete each beat on a space with a mushroom to acquire a Key",
+        "floor_size": "large",
+        "monsters": "2,4;3,7",
+        "adds": "0",
+        "space_classes": "2,space-shroom;4,space-shroom;6,space-shroom;8,space-shroom",
+        "next": "5",
+        "bg_classes": "2,spire-door"
+      },
+      {
+        "name": "Floor 5",
+        "startlocation": "5",
+        "description": "Defeat the elementals in the following order to acquire a Key:<br/>\nEarth, Fire, Wind, Water",
+        "floor_size": "large",
+        "monsters": "0,1;2,3;1,7;3,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "6",
+        "bg_classes": "5,spire-door"
+      },
+      {
+        "name": "Spire Vault B",
+        "startlocation": "1",
+        "description": "You come upon a room filled with Locked Chests. You can spend 2 Keys per effect to get the effect.<br/>\n<br/>\n<b>New Weapon!</b> - One fighter gains an EX base, swapping out the matching Normal Base.<br/>\n<b>New Potions!</b> - Gain a 'Life Potion' and a 'Swiftness Potion'<br/>\n<b>New Trinket!</b> - Gain the 'Displacer Charm' Trinket",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "7",
+        "bg_classes": "1,spire-door"
+      },
+      {
+        "name": "Floor 6",
+        "startlocation": "4",
+        "description": "During the floor, if the same player deals the killing blow to all 3 enemies, acquire a Key",
+        "floor_size": "large",
+        "monsters": "4,6;1,7;3,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "8",
+        "bg_classes": "4,spire-door"
+      },
+      {
+        "name": "Floor 7",
+        "startlocation": "6",
+        "description": "During this floor, if the same player deals the killing blow to all 3 enemies, acquire a Key.",
+        "floor_size": "large",
+        "monsters": "0,1;2,3;6,4",
+        "adds": "0",
+        "space_classes": "",
+        "next": "9",
+        "bg_classes": "6,spire-door"
+      },
+      {
+        "name": "Caged Elemental Room",
+        "startlocation": "1",
+        "description": "You come upon a laboratory filled with captive, sentient Elementals, who beg you to set them free before the madness of the flame corrupts them. It takes 3 Keys to free them. You may...<br/>\n<br/>\n- Leave them in captivity (Do nothing)<br/>\n- Let them escape (Lose 3 Keys)<br/>\n- Use the Elemental Forge to convert them into a weapon of power (Lose 3 Keys, gain an Almighty Base, swapping it with the corresponding normal one)",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "10",
+        "bg_classes": "1,spire-door"
+      },
+      {
+        "name": "Floor 8",
+        "startlocation": "5",
+        "description": "During this floor, if each player deals the killing blow to exactly one enemy, acquire a Key",
+        "floor_size": "large",
+        "monsters": "5,2;4,8",
+        "adds": "0",
+        "space_classes": "",
+        "next": "11",
+        "bg_classes": "5,spire-door"
+      },
+      {
+        "name": "Floor 9",
+        "startlocation": "5",
+        "description": "During this floor, if each player deals the killing blow to exactly one enemy, acquire a Key",
+        "floor_size": "large",
+        "monsters": "6,4;4,6",
+        "adds": "0",
+        "space_classes": "",
+        "next": "12",
+        "bg_classes": "5,spire-door"
+      },
+      {
+        "name": "Spire Vault C",
+        "startlocation": "1",
+        "description": "You come upon a room with 2 locked chests. You may spend 3 keys per chest to open a chest and claim the item inside.<br/>\n<br/>\n<b>Legendary Weapon!</b> - Each player gains an Almighty Base, swapping it for the matching normal.<br/>\n<b>Rare Trinket!</b> - Both players gain a 'Phase Cloak' Trinket<br/>\n<b>Super Potion!</b> - Both players regain 10 life.",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "13",
+        "bg_classes": ""
+      },
+      {
+        "name": "Spire Peak",
+        "startlocation": "1",
+        "description": "<i>Archmage Demarq has become corrupted by the distoring light of the Phantasmagoric Flame. Only by defeating him once and for all can you quench the flame and restore balance!</i>",
+        "floor_size": "large",
+        "monsters": "6,3;4,5;5,7;7,9",
+        "adds": "1",
+        "space_classes": "",
+        "next": "",
+        "bg_classes": "1,spire-door"
+      }
+    ],
+    "monster": [
+      {
+        "name": "Water Elemental",
+        "maxHealth": "12",
+        "pClass": "monster-elemwater",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Acid Splash",
+            "attackrange": "1-4",
+            "power": "5",
+            "priority": "3",
+            "description": "Damage is applied as life loss.<br/>\r\n<b>Before:</b> Advance up to 2 spaces.",
+            "chance": "3"
+          },
+          {
+            "name": "Riptide",
+            "attackrange": "1-4",
+            "power": "3",
+            "priority": "1",
+            "description": "<b>Soak 3</b><br/>\r\n<b>Hit:</b> Push 3 spaces.",
+            "chance": "2"
+          },
+          {
+            "name": "Tidal Surge",
+            "attackrange": "X",
+            "power": "X",
+            "priority": "3",
+            "description": "X is the space of the farthest opponent.<br/>\r\n<b>After:</b> Retreat 1.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Fire Elemental",
+        "maxHealth": "4",
+        "pClass": "monster-elemfire",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Flamethrower",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "4",
+            "description": "Ignore Soak",
+            "chance": "3"
+          },
+          {
+            "name": "Fireball",
+            "attackrange": "3-5",
+            "power": "3",
+            "priority": "2",
+            "description": "<b>Start:</b> Retreat up to 2 spaces.",
+            "chance": "2"
+          },
+          {
+            "name": "Vulcan",
+            "attackrange": "1-6",
+            "power": "5",
+            "priority": "1",
+            "description": "<b>Stun Guard 4</b>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Earth Elemental",
+        "maxHealth": "16",
+        "pClass": "monster-elemearth",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Landslide",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "2",
+            "description": "<b>Stun Guard 5</b><br/>\r\n<b>Before:</b> Advance 1",
+            "chance": "3"
+          },
+          {
+            "name": "Boulder Toss",
+            "attackrange": "2-5",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Before:</b> Push an adjacent opponent one space.",
+            "chance": "2"
+          },
+          {
+            "name": "Diamond Wall",
+            "attackrange": "1-8",
+            "power": "X",
+            "priority": "0",
+            "description": "<b>Soak 5</b><br/>\r\n<b>Hit:</b> Power is equal to the damage soaked this beat.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Wind Elemental",
+        "maxHealth": "7",
+        "pClass": "monster-elemwind",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Wind Cutter",
+            "attackrange": "1-8",
+            "power": "2",
+            "priority": "5",
+            "description": "Ignore Stun Guard<br/>\r\n<b>Hit:</b> Push 1",
+            "chance": "3"
+          },
+          {
+            "name": "Buffet",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "6",
+            "description": "<b>Before:</b> Advance until adjacent.<br/>\r\n<b>Hit:</b> Pull the opponent as far as possible.",
+            "chance": "2"
+          },
+          {
+            "name": "Slipstream",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "2",
+            "description": "<b>Start:</b> Pull the opponent until he is adjacent to you.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Light Elemental",
+        "maxHealth": "8",
+        "pClass": "monster-elemlight",
+        "attribute": [
+          {
+            "name": "Brilliant",
+            "description": "At the end of each beat, this monster regains 2 life."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Ray",
+            "attackrange": "1-8",
+            "power": "1",
+            "priority": "7",
+            "description": "Ignores Soak",
+            "chance": "2"
+          },
+          {
+            "name": "Blinding Flash",
+            "attackrange": "1-3",
+            "power": "2",
+            "priority": "5",
+            "description": "<b>Hit:</b> The opponent is stunned",
+            "chance": "2"
+          },
+          {
+            "name": "Caustic Touch",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "4",
+            "description": "<b>Before:</b> Advance 1 or 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Flashbomb",
+            "attackrange": "1",
+            "power": "8",
+            "priority": "1",
+            "description": "<b>Stun Immunity</b><br/>\r\n<b>Hit:</b> Bonus power equal to this monster's life.<br/>\r\n<b>Damage:</b> Destroy this monster.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Lightning Elemental",
+        "maxHealth": "3",
+        "pClass": "monster-elemlightning",
+        "attribute": [
+          {
+            "name": "Untouchable",
+            "description": "No matter how much damage it takes, this monster only loses 1 HP per beat. It takes all damage as normal (applying it to Soak and Stun Guard as usual) then reduces that amount to 1."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Ride Lightning",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Start:</b> Advance up to 3 spaces",
+            "chance": "2"
+          },
+          {
+            "name": "Thunderball",
+            "attackrange": "3-8",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Before:</b> Retreat 1 or 2 spaces",
+            "chance": "2"
+          },
+          {
+            "name": "Shock Field",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "4",
+            "description": "<b>Soak 3</b><br/>\r\n<b>Multi-attack</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Strike Slider",
+            "attackrange": "X",
+            "power": "3",
+            "priority": "6",
+            "description": "<b>Start:</b> Advance as far as possible. X are the spaces occupied by players you moved past.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Shadow Elemental",
+        "maxHealth": "20",
+        "pClass": "monster-elemdark",
+        "attribute": [
+          {
+            "name": "Vile",
+            "description": "At the end of each beat, an opponent at range 1 loses 1 life."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Vamp",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "3",
+            "description": "<b>Stun Guard 4</b><br/>\r\n<b>Before:</b> Advance 1 or 2 spaces<br/>\r\n<b>Hit:</b> Gain 3 life",
+            "chance": "2"
+          },
+          {
+            "name": "Choking Dark",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "2",
+            "description": "<b>Before:</b> Advance 1 or 2 spaces<br/>\r\nThe nearest player cannot move this beat.",
+            "chance": "2"
+          },
+          {
+            "name": "Shadowbite",
+            "attackrange": "1",
+            "power": "8",
+            "priority": "8",
+            "description": "<br/>",
+            "chance": "1"
+          },
+          {
+            "name": "Shadow Wave",
+            "attackrange": "5-8",
+            "power": "6",
+            "priority": "5",
+            "description": "<b>Hit:</b> Pull the opponent until he is adjacent to you.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Corrupted Archmage Demarq",
+        "maxHealth": "40",
+        "pClass": "monster-runeknight",
+        "attribute": [
+          {
+            "name": "Phantasmagoric Aura",
+            "description": "At the end of each beat, if there are fewer than 2 elemental monsters in play, roll a die to spawn a new elemental in Demarq's place.<br />\r\n<br/>\r\n1 - Fire <br/>\r\n2 - Water <br/>\r\n3 - Earth <br/>\r\n4 - Wind <br/>\r\n5 - Lightning <br/>\r\n6 - Light"
+          }
+        ],
+        "attack": [
+          {
+            "name": "Attunement",
+            "attackrange": "1-2",
+            "power": "3",
+            "priority": "5",
+            "description": "<b>Hit:</b> Regain 3 life, and the opponent cannot hit you this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Searing Flame",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "4",
+            "description": "<b>Before:</b> Advance 1 or 2<br/>\r\n<b>Hit:</b> The opponent has +3 power next beat.<br/>\r\n<b>After:</b> Retreat 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Lightning Swift",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "8",
+            "description": "<b>Start:</b> Advance until you are behind the nearest opponent.",
+            "chance": "1"
+          },
+          {
+            "name": "Creeping Dark",
+            "attackrange": "3-6",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Multi-attack</b><br/>\r\nIgnore Stun Guard",
+            "chance": "1"
+          },
+          {
+            "name": "Tidal Force",
+            "attackrange": "X",
+            "power": "5",
+            "priority": "2",
+            "description": "<b>Stun Immunity</b><br/>\r\nX is both edges of the board.<br/>\r\n<b>Start:</b> Pull the nearest enemy as far as possible, push the farthest enemy as far as possible.",
+            "chance": "1"
+          },
+          {
+            "name": "Calamity Grip",
+            "attackrange": "1",
+            "power": "9",
+            "priority": "6",
+            "description": "<b>Stun Guard 3</b><br/>\r\n<b>Soak 3</b>",
+            "chance": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

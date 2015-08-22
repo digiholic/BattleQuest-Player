@@ -1,0 +1,44 @@
+[  
+   {  
+      "ID":"17",
+      "monster_id":"27",
+      "name":"Remote Control",
+      "description":"You do not have to defeat this monster to clear a room."
+   },
+   {  
+      "ID":"18",
+      "monster_id":"29",
+      "name":"Heavily Armored",
+      "description":"Killbot cannot take more than 4 damage in a single beat. It checks for stun based off of the unmodified damage of the attack."
+   },
+   {  
+      "ID":"19",
+      "monster_id":"30",
+      "name":"Incorporeal",
+      "description":"This monster is not hit by attacks and cannot take damage. It loses 1 life at the end of each beat <i>(It can be defeated by this loss of life)<\/i> It cannot lose life by any effect except for its own."
+   },
+   {  
+      "ID":"20",
+      "monster_id":"31",
+      "name":"Regenerative",
+      "description":"A homunculus who is not hit during a beat regenerates 1 life."
+   },
+   {  
+      "ID":"21",
+      "monster_id":"32",
+      "name":"Immobile",
+      "description":"Kilgrem's Last Experiment cannot be moved by any effect. Instead it loses 2 life each time it resists a movement effect."
+   },
+   {  
+      "ID":"22",
+      "monster_id":"46",
+      "name":"Ambition",
+      "description":"Oriana has +2 Priority while this hand lives."
+   },
+   {  
+      "ID":"23",
+      "monster_id":"47",
+      "name":"Power",
+      "description":"Oriana has +2 Power while this hand lives."
+   }
+]

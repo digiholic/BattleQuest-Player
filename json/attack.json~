@@ -1,0 +1,331 @@
+[  
+   {  
+      "ID":"1",
+      "monster_id":"1",
+      "name":"Double Shot",
+      "attackrange":"2-4",
+      "power":"3",
+      "priority":"3",
+      "description":"<b>After:<\/b> Retreat 1 space<br \/><b>End:<\/b> Repeat this attack once",
+      "chance":"3"
+   },
+   {  
+      "ID":"2",
+      "monster_id":"1",
+      "name":"Coldclock",
+      "attackrange":"1",
+      "power":"5",
+      "priority":"4",
+      "description":"<b>Start:<\/b> Advance 2<br \/><b>End:<\/b> Retreat 2",
+      "chance":"2"
+   },
+   {  
+      "ID":"3",
+      "monster_id":"1",
+      "name":"Net Toss",
+      "attackrange":"X",
+      "power":"4",
+      "priority":"1",
+      "description":"<b>Guard 4<\/b> <br \/> X is the range of the farthest opponent",
+      "chance":"1"
+   },
+   {  
+      "ID":"30",
+      "monster_id":"8",
+      "name":"Gun Down",
+      "attackrange":"1-4",
+      "power":"3",
+      "priority":"3",
+      "description":"<b>Stun Guard 4<\/b><br \/>\r\n<b>After:<\/b> Retreat 1 space",
+      "chance":"3"
+   },
+   {  
+      "ID":"31",
+      "monster_id":"8",
+      "name":"Hip Shot",
+      "attackrange":"1-4",
+      "power":"2",
+      "priority":"3",
+      "description":"<b>Hit:<\/b> Push the opponent 1 space.",
+      "chance":"2"
+   },
+   {  
+      "ID":"32",
+      "monster_id":"8",
+      "name":"Net Toss",
+      "attackrange":"1-3",
+      "power":"1",
+      "priority":"4",
+      "description":"<b>Ignore Soak and Stun Guard<\/b><br\/>\r\n<b>Hit:<\/b> Advance as far as possible.",
+      "chance":"1"
+   },
+   {  
+      "ID":"33",
+      "monster_id":"9",
+      "name":"Whip Crack",
+      "attackrange":"1-2",
+      "power":"4",
+      "priority":"4",
+      "description":"<b>Before:<\/b> Advance 1 space.<br\/>\r\n<b>Hit:<\/b> Push the opponent 1 space.",
+      "chance":"3"
+   },
+   {  
+      "ID":"34",
+      "monster_id":"9",
+      "name":"Handgun",
+      "attackrange":"2-5",
+      "power":"3",
+      "priority":"5",
+      "description":"<b>Ignore Stun Guard<\/b><br\/>\r\n<b>Before:<\/b> Retreat 2 spaces.",
+      "chance":"2"
+   },
+   {  
+      "ID":"35",
+      "monster_id":"9",
+      "name":"Blindside",
+      "attackrange":"1",
+      "power":"4",
+      "priority":"6",
+      "description":"<b>Before:<\/b> Advance until you are adjacent to the nearest opponent.",
+      "chance":"1"
+   },
+   {  
+      "ID":"36",
+      "monster_id":"10",
+      "name":"Laser Lance",
+      "attackrange":"1",
+      "power":"5",
+      "priority":"1",
+      "description":"<b>Stun Immunity<\/b><br \/>\r\n<b>End:<\/b> Advance 1 space, unless that space is occupied.",
+      "chance":"3"
+   },
+   {  
+      "ID":"37",
+      "monster_id":"10",
+      "name":"Laser Javelin",
+      "attackrange":"1-4",
+      "power":"5",
+      "priority":"3",
+      "description":"<b>End:<\/b> Advance 1 space",
+      "chance":"3"
+   },
+   {  
+      "ID":"38",
+      "monster_id":"11",
+      "name":"Stone Blade",
+      "attackrange":"3-5",
+      "power":"5",
+      "priority":"3",
+      "description":"<b>Ignore Stun Guard<\/b>",
+      "chance":"3"
+   },
+   {  
+      "ID":"39",
+      "monster_id":"11",
+      "name":"Deathless",
+      "attackrange":"-",
+      "power":"-",
+      "priority":"4",
+      "description":"<b>Before:<\/b> All Undead monsters have <b>Soak 2<\/b> and regain 2 life.",
+      "chance":"3"
+   },
+   {  
+      "ID":"40",
+      "monster_id":"12",
+      "name":"Stone Blade",
+      "attackrange":"1-2",
+      "power":"4",
+      "priority":"1",
+      "description":"<b>Soak 2, Stun Guard 2<\/b><br \/>\r\n<b>Before:<\/b> Advance 1 space.<br \/>\r\nAny player who moves into a space adjacent to you loses 4 life.",
+      "chance":"1"
+   },
+   {  
+      "ID":"41",
+      "monster_id":"13",
+      "name":"Awakening",
+      "attackrange":"-",
+      "power":"-",
+      "priority":"9",
+      "description":"<b>After:<\/b> Spawn a Mummified Warrior in the farthest unoccupied space from the player. Roll its attack this beat. Lose 6 life.",
+      "chance":"1"
+   },
+   {  
+      "ID":"42",
+      "monster_id":"13",
+      "name":"Ritual",
+      "attackrange":"-",
+      "power":"-",
+      "priority":"9",
+      "description":"<b>After<\/b> Spawn a Mummified Priest in the farthest unoccupied space from the player. Roll its attack this beat. Lose 8 life.",
+      "chance":"1"
+   },
+   {  
+      "ID":"43",
+      "monster_id":"13",
+      "name":"Sacrifice",
+      "attackrange":"-",
+      "power":"-",
+      "priority":"9",
+      "description":"<b>After: <\/b> Spawn a Mummified Dog in the farthest unoccupied space from the player. Roll its attack this beat. Lose 4 life.",
+      "chance":"1"
+   },
+   {  
+      "ID":"44",
+      "monster_id":"14",
+      "name":"Seal the Tomb",
+      "attackrange":"1",
+      "power":"13",
+      "priority":"1",
+      "description":"<b>Start:<\/b> Advance until you switch sides with the opponent, or as far as possible.",
+      "chance":"2"
+   },
+   {  
+      "ID":"45",
+      "monster_id":"14",
+      "name":"Organ Extraction",
+      "attackrange":"2-4",
+      "power":"3",
+      "priority":"4",
+      "description":"<b>Hit:<\/b> Pull the target until adjacent.",
+      "chance":"2"
+   },
+   {  
+      "ID":"46",
+      "monster_id":"14",
+      "name":"Rite of Passage",
+      "attackrange":"1-3",
+      "power":"4",
+      "priority":"3",
+      "description":"<b>Hit:<\/b> Push the opponent 3 spaces. If you cannot push them the full 3 spaces, they are stunned.",
+      "chance":"1"
+   },
+   {  
+      "ID":"47",
+      "monster_id":"14",
+      "name":"Karmic Wheel",
+      "attackrange":"3-6",
+      "power":"5",
+      "priority":"2",
+      "description":"<b>Start:<\/b> Retreat as far as possible.",
+      "chance":"1"
+   },
+   {  
+      "ID":"48",
+      "monster_id":"15",
+      "name":"Lunge",
+      "attackrange":"1",
+      "power":"3",
+      "priority":"5",
+      "description":"<b>Start:<\/b> Advance until adjacent to the opponent.",
+      "chance":"1"
+   },
+   {  
+      "ID":"49",
+      "monster_id":"15",
+      "name":"Maul",
+      "attackrange":"1",
+      "power":"6",
+      "priority":"0",
+      "description":"<b>Stun Immunity<\/b>",
+      "chance":"1"
+   },
+   {  
+      "ID":"50",
+      "monster_id":"16",
+      "name":"Gold Bomber",
+      "attackrange":"1-3",
+      "power":"6",
+      "priority":"4",
+      "description":"<b>Hit:<\/b>Push the opponent 4 spaces.<br\/>\r\n<b>After:<\/b>Lose 3 life.<br \/>\r\n<b>End:<\/b> Advance 1 space",
+      "chance":"2"
+   },
+   {  
+      "ID":"51",
+      "monster_id":"16",
+      "name":"Treasure Wave",
+      "attackrange":"2-4",
+      "power":"6",
+      "priority":"2",
+      "description":"<b>Stun Guard 4<\/b><br\/>\r\n<b>Hit:<\/b> Advance 3 spaces.\r\n<b>After:<\/b> Lose 3 life.",
+      "chance":"2"
+   },
+   {  
+      "ID":"52",
+      "monster_id":"16",
+      "name":"Gem Claws",
+      "attackrange":"1-2",
+      "power":"8",
+      "priority":"1",
+      "description":"<b>Stun Guard 5<\/b><br\/>\r\n<b>Hit:<\/b> Pull the opponent 1 space.<br\/>\r\n<b>After:<\/b> Lose 3 life.<br\/>\r\n<b>End:<\/b> Advance 1 space.",
+      "chance":"1"
+   },
+   {  
+      "ID":"53",
+      "monster_id":"16",
+      "name":"Steal",
+      "attackrange":"-",
+      "power":"-",
+      "priority":"5",
+      "description":"<b>After:<\/b> The nearest opponent randomly discards 3 bases with their attack pair this beat.",
+      "chance":"1"
+   },
+   {  
+      "ID":"54",
+      "monster_id":"17",
+      "name":"Soul Storm",
+      "attackrange":"1-8",
+      "power":"6",
+      "priority":"9",
+      "description":"This attack only hits if the player used Tag this beat.",
+      "chance":"1"
+   },
+   {  
+      "ID":"55",
+      "monster_id":"17",
+      "name":"Megaton Punch",
+      "attackrange":"2-3",
+      "power":"7",
+      "priority":"5",
+      "description":"<b>Stun Immunity<\/b><br\/>\r\n<b>After:<\/b> Retreat 1 or 2 spaces.",
+      "chance":"1"
+   },
+   {  
+      "ID":"56",
+      "monster_id":"17",
+      "name":"Hydraulic Lance",
+      "attackrange":"1-3",
+      "power":"6",
+      "priority":"5",
+      "description":"<b>Stun Guard 4<\/b><br\/>\r\n<b>Start:<\/b> Retreat 1 space.<br\/>\r\nAn opponent who moves into an adjacent space loses 6 life.",
+      "chance":"1"
+   },
+   {  
+      "ID":"57",
+      "monster_id":"17",
+      "name":"Rocket Charge",
+      "attackrange":"1",
+      "power":"7",
+      "priority":"2",
+      "description":"<b>Stun Guard 6<\/b><br\/>\r\n<b>Before:<\/b> Advance up to 3 spaces.<br\/>\r\nThis attack has +3 power when hitting an opponent adjacent to you and on the edge of the board.",
+      "chance":"1"
+   },
+   {  
+      "ID":"58",
+      "monster_id":"17",
+      "name":"Lance Pin",
+      "attackrange":"X",
+      "power":"6",
+      "priority":"1",
+      "description":"<b>Stun Guard 6<\/b><br\/>\r\nX is the space occupied by the player during reveal.",
+      "chance":"1"
+   },
+   {  
+      "ID":"59",
+      "monster_id":"17",
+      "name":"Shockfist",
+      "attackrange":"1-2",
+      "power":"3",
+      "priority":"6",
+      "description":"<b>Ignore Stun Guard<\/b><br\/>\r\n<b>Stun Guard 3<\/b><br\/>\r\n<b>Before:<\/b> Advance 1 Space.<br\/>",
+      "chance":"1"
+   }

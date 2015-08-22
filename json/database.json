@@ -1,0 +1,1162 @@
+{
+  "hero": [
+    {
+      "ID": "1",
+      "name": "Alexian",
+      "pClass": "player-alexian",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "2",
+      "name": "Adjenna",
+      "pClass": "player-adjenna",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "3",
+      "name": "Arec",
+      "pClass": "player-arec",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "4",
+      "name": "Aria",
+      "pClass": "player-aria",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "5",
+      "name": "Byron",
+      "pClass": "player-byron",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "6",
+      "name": "Cadenza",
+      "pClass": "player-cadenza",
+      "game": "War of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "7",
+      "name": "Cherri",
+      "pClass": "player-cherri",
+      "game": "War of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "8",
+      "name": "Clinhyde",
+      "pClass": "player-clinhyde",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "9",
+      "name": "Demitras",
+      "pClass": "player-demitras",
+      "game": "War of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "10",
+      "name": "Eligor",
+      "pClass": "player-eligor",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "11",
+      "name": "Endrbyt",
+      "pClass": "player-endrbyt",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "12",
+      "name": "Gaspar",
+      "pClass": "player-gaspar",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "13",
+      "name": "Gerard",
+      "pClass": "player-gerard",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "14",
+      "name": "Heketch",
+      "pClass": "player-heketch",
+      "game": "War of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "15",
+      "name": "Hepzibah",
+      "pClass": "player-hepzibah",
+      "game": "War of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "16",
+      "name": "Hikaru",
+      "pClass": "player-hikaru",
+      "game": "War of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "17",
+      "name": "Iaxus",
+      "pClass": "player-iaxus",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "18",
+      "name": "Joal",
+      "pClass": "player-joal",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "19",
+      "name": "Kaitlyn",
+      "pClass": "player-kaitlyn",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "20",
+      "name": "Kajia",
+      "pClass": "player-kajia",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "21",
+      "name": "Kallistar",
+      "pClass": "player-kallistar",
+      "game": "War of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "22",
+      "name": "Karin",
+      "pClass": "player-karin",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "23",
+      "name": "Kehrolyn",
+      "pClass": "player-kehrolyn",
+      "game": "War of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "24",
+      "name": "Khadath",
+      "pClass": "player-khadath",
+      "game": "War of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "25",
+      "name": "Lesandra",
+      "pClass": "player-lesandra",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "26",
+      "name": "Lixis",
+      "pClass": "player-lixis",
+      "game": "War of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "27",
+      "name": "Luc",
+      "pClass": "player-luc",
+      "game": "War of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "28",
+      "name": "Magdelina",
+      "pClass": "player-magdelina",
+      "game": "War of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "29",
+      "name": "Malandrax",
+      "pClass": "player-malandrax",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "30",
+      "name": "Marmelee",
+      "pClass": "player-marmelee",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "31",
+      "name": "Mikhail",
+      "pClass": "player-mikhail",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "32",
+      "name": "Oriana",
+      "pClass": "player-oriana",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "33",
+      "name": "Ottavia",
+      "pClass": "player-ottavia",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "34",
+      "name": "Pendros",
+      "pClass": "player-pendros",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "35",
+      "name": "Rexan",
+      "pClass": "player-rexan",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "36",
+      "name": "Rukyuk",
+      "pClass": "player-rukyuk",
+      "game": "War of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "37",
+      "name": "Runika",
+      "pClass": "player-runika",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "38",
+      "name": "Sagas",
+      "pClass": "player-sagas",
+      "game": "War of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "39",
+      "name": "Seth",
+      "pClass": "player-seth",
+      "game": "War of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "40",
+      "name": "Shehktur",
+      "pClass": "player-shehktur",
+      "game": "Devastation of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "41",
+      "name": "Tanis",
+      "pClass": "player-tanis",
+      "game": "Devastation of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "42",
+      "name": "Tatsumi",
+      "pClass": "player-tatsumi",
+      "game": "War of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "43",
+      "name": "Vanaah",
+      "pClass": "player-vanaah",
+      "game": "War of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "44",
+      "name": "Voco",
+      "pClass": "player-voco",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "45",
+      "name": "Zaamassal",
+      "pClass": "player-zaamassal",
+      "game": "War of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "46",
+      "name": "Burman",
+      "pClass": "player-burman",
+      "game": "Fate of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "47",
+      "name": "Clive",
+      "pClass": "player-clive",
+      "game": "Devastation of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "48",
+      "name": "Alumis",
+      "pClass": "player-alumis",
+      "game": "Fate of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "49",
+      "name": "Baenvier",
+      "pClass": "player-baenvier",
+      "game": "Fate of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "50",
+      "name": "Cesar",
+      "pClass": "player-cesar",
+      "game": "Devastation of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "51",
+      "name": "Eustace",
+      "pClass": "player-eustace",
+      "game": "Fate of Indines",
+      "flight": "Novice"
+    },
+    {
+      "ID": "52",
+      "name": "Iri",
+      "pClass": "player-iri",
+      "game": "Fate of Indines",
+      "flight": "Advanced"
+    },
+    {
+      "ID": "53",
+      "name": "Lymn",
+      "pClass": "player-lymn",
+      "game": "Devastation of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "54",
+      "name": "Sarafina",
+      "pClass": "player-sarafina",
+      "game": "Fate of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "55",
+      "name": "Borneo",
+      "pClass": "player-borneo",
+      "game": "Promotional",
+      "flight": "Novice"
+    },
+    {
+      "ID": "56",
+      "name": "Juto",
+      "pClass": "player-juto",
+      "game": "Promotional",
+      "flight": "Novice"
+    },
+    {
+      "ID": "57",
+      "name": "Jager",
+      "pClass": "player-jager",
+      "game": "Fate of Indines",
+      "flight": "Beginner"
+    },
+    {
+      "ID": "58",
+      "name": "Xenitia",
+      "pClass": "player-xenitia",
+      "game": "Fate of Indines",
+      "flight": "Master"
+    },
+    {
+      "ID": "59",
+      "name": "Thessala",
+      "pClass": "player-thessala",
+      "game": "Fate of Indines",
+      "flight": "Intermediate"
+    },
+    {
+      "ID": "60",
+      "name": "Welsie",
+      "pClass": "player-welsie",
+      "game": "Fate of Indines",
+      "flight": "Master"
+    }
+  ],
+  "item": [
+    {
+      "ID": "1",
+      "name": "Life Potion",
+      "type": "Consumable",
+      "cost": "10",
+      "css-class": "item-lifepot",
+      "description": "<b>Ante:</b> You have \"<b>On Damage:</b> Regain 3 life\""
+    },
+    {
+      "ID": "2",
+      "name": "Mana Elixir",
+      "type": "Consumable",
+      "cost": "10",
+      "css-class": "item-manapot",
+      "description": "<b>Ante:</b> You have \"<b>End of Beat:</b> Choose and regain a Token from your Token Discard or Discard Piles.\""
+    },
+    {
+      "ID": "3",
+      "name": "Spirits",
+      "type": "Consumable",
+      "cost": "5",
+      "css-class": "item-spirits",
+      "description": "<b>Ante:</b> Switch your discard piles"
+    },
+    {
+      "ID": "4",
+      "name": "Metabolic Booster",
+      "type": "Consumable",
+      "cost": "10",
+      "css-class": "item-speedpot",
+      "description": "<b>Ante:</b> +4 Priority"
+    },
+    {
+      "ID": "5",
+      "name": "Liquid Lightning",
+      "type": "Consumable",
+      "cost": "20",
+      "css-class": "item-telepot",
+      "description": "<b>Ante:</b> Move directly to any space"
+    },
+    {
+      "ID": "6",
+      "name": "Bottled Rage",
+      "type": "Consumable",
+      "cost": "5",
+      "css-class": "item-ragepot",
+      "description": "<b>Ante:</b> +2 Power"
+    },
+    {
+      "ID": "7",
+      "name": "Shield Tonic",
+      "type": "Consumable",
+      "cost": "25",
+      "css-class": "item-shieldpot",
+      "description": "<b>Ante:</b> <b>Stun Immunity</b>"
+    },
+    {
+      "ID": "8",
+      "name": "Limit Breaker",
+      "type": "Consumable",
+      "cost": "30",
+      "css-class": "item-limit",
+      "description": "<b>Ante:</b> When you reveal, activate your Finisher instead of your regular attack pair. You may not ante this item unless you have 7 or less life. Remove your Finisher from the game. It cannot be used again by any other means during this duel."
+    },
+    {
+      "ID": "9",
+      "name": "Arcane Eye",
+      "type": "Consumable",
+      "cost": "30",
+      "css-class": "item-eye",
+      "description": "<b>Ante:</b> Roll attacks before setting your attack pair."
+    },
+    {
+      "ID": "10",
+      "name": "Power Glove",
+      "type": "Trinket",
+      "cost": "20",
+      "css-class": "item-glove",
+      "description": "<b>Ante:</b> +1 Power"
+    },
+    {
+      "ID": "11",
+      "name": "Sprint Shoes",
+      "type": "Trinket",
+      "cost": "15",
+      "css-class": "item-shoes",
+      "description": "<b>Ante:</b> +1 Priority"
+    },
+    {
+      "ID": "12",
+      "name": "Phase Cloak",
+      "type": "Trinket",
+      "cost": "45",
+      "css-class": "item-cloak",
+      "description": "<b>Ante:</b> Choose a range other than your current range to any opponent. Attacks at that range do not hit you this beat."
+    },
+    {
+      "ID": "13",
+      "name": "Autodeflector",
+      "type": "Trinket",
+      "cost": "50",
+      "css-class": "item-autodeflector",
+      "description": "<b>Ante:</b> <b>Soak 2</b>"
+    },
+    {
+      "ID": "14",
+      "name": "Displacer Charm",
+      "type": "Trinket",
+      "cost": "30",
+      "css-class": "item-charm",
+      "description": "<b>Ante:</b> Move 1 space"
+    },
+    {
+      "ID": "15",
+      "name": "Healing Stone",
+      "type": "Trinket",
+      "cost": "10",
+      "css-class": "item-stone",
+      "description": "<b>Ante:</b> You have \"<b>End of Beat:</b> If you are not stunned, regain 1 life\""
+    },
+    {
+      "ID": "16",
+      "name": "Dark Rosary",
+      "type": "Trinket",
+      "cost": "20",
+      "css-class": "item-rosary",
+      "description": "<b>Ante:</b> Ignore life loss done to you by opponents this beat."
+    },
+    {
+      "ID": "17",
+      "name": "Azure Shroud",
+      "type": "Trinket",
+      "cost": "10",
+      "css-class": "item-shroud",
+      "description": "<b>Ante:</b> Ignore all penalties to priority applied to you this beat"
+    },
+    {
+      "ID": "18",
+      "name": "Skyfeather",
+      "type": "Trinket",
+      "cost": "80",
+      "css-class": "item-feather",
+      "description": "<b>Ante:</b> Move directly to any space"
+    },
+    {
+      "ID": "19",
+      "name": "Unbreakable Box",
+      "type": "Trinket",
+      "cost": "5",
+      "css-class": "item-box",
+      "description": "<b>Ante:</b> If your life would drop below 1 this beat, your life becomes 1, you become stunned, and remove this trinket from the game instead."
+    },
+    {
+      "ID": "20",
+      "name": "Red Mask",
+      "type": "Trinket",
+      "cost": "50",
+      "css-class": "item-mask",
+      "description": "<b>Ante:</b> You have <b>Stun Guard 3</b>. If you are hit during this beat, gain +2 Power to your next attack this beat."
+    },
+    {
+      "ID": "21",
+      "name": "Shuttered Lantern",
+      "type": "Trinket",
+      "cost": "40",
+      "css-class": "item-lantern",
+      "description": "<b>Ante:</b> Your attack ignores Stun Guard. You have -1 Power and -2 Priority this beat."
+    },
+    {
+      "ID": "22",
+      "name": "Leather Armor",
+      "type": "Armor",
+      "cost": "5",
+      "css-class": "item-leather",
+      "description": "Life increases to 25"
+    },
+    {
+      "ID": "23",
+      "name": "Bronze Armor",
+      "type": "Armor",
+      "cost": "15",
+      "css-class": "item-bronze",
+      "description": "Life increases to 30"
+    },
+    {
+      "ID": "24",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "cost": "30",
+      "css-class": "item-iron",
+      "description": "Life increases to 35"
+    },
+    {
+      "ID": "25",
+      "name": "Steel Armor",
+      "type": "Armor",
+      "cost": "50",
+      "css-class": "item-steel",
+      "description": "Life increases to 40"
+    },
+    {
+      "ID": "26",
+      "name": "Diamond Armor",
+      "type": "Armor",
+      "cost": "75",
+      "css-class": "item-diamond",
+      "description": "Life increases to 45"
+    },
+    {
+      "ID": "27",
+      "name": "Vital Silver Armor",
+      "type": "Armor",
+      "cost": "100",
+      "css-class": "item-vSilver",
+      "description": "Life increases to 50"
+    },
+    {
+      "ID": "28",
+      "name": "Henchman",
+      "type": "Relic",
+      "cost": "40",
+      "css-class": "item-henchman",
+      "description": "Draw the top 5 cards from the Strikers Deck, and add one to your party, then discard others. You may use this Striker during the dungeon."
+    },
+    {
+      "ID": "29",
+      "name": "Extra Costume DLC",
+      "type": "Relic",
+      "cost": "10",
+      "css-class": "item-costume",
+      "description": "Use one of your hero's Alternate Unique Abilities instead of their regular Unique Ability for this dungeon."
+    },
+    {
+      "ID": "30",
+      "name": "The Contract",
+      "type": "Relic",
+      "cost": "75",
+      "css-class": "item-contract",
+      "description": "Use your hero's EX Unique Ability instead of their regular Unique Ability for this dungeon. Does not come with any EX Bases."
+    },
+    {
+      "ID": "31",
+      "name": "The Higher Authority",
+      "type": "Relic",
+      "cost": "150",
+      "css-class": "item-authority",
+      "description": "Use your hero's Almighty Unique Ability instead of their regular Unique Ability for this dungeon. Does not come with any Almighty Bases."
+    },
+    {
+      "ID": "32",
+      "name": "Key Item A",
+      "type": "Key",
+      "cost": "0",
+      "css-class": "item-key",
+      "description": "Some dungeons have special Key items. Add this to your inventory to represent them."
+    },
+    {
+      "ID": "33",
+      "name": "Key Item B",
+      "type": "Key",
+      "cost": "0",
+      "css-class": "item-key",
+      "description": "Some dungeons have special Key items. Add this to your inventory to represent them."
+    },
+    {
+      "ID": "34",
+      "name": "Key Item C",
+      "type": "Key",
+      "cost": "0",
+      "css-class": "item-key",
+      "description": "Some dungeons have special Key items. Add this to your inventory to represent them."
+    },
+    {
+      "ID": "35",
+      "name": "Key Item D",
+      "type": "Key",
+      "cost": "0",
+      "css-class": "item-key",
+      "description": "Some dungeons have special Key items. Add this to your inventory to represent them."
+    },
+    {
+      "ID": "36",
+      "name": "Soul Saver",
+      "type": "Trinket",
+      "cost": "45",
+      "css-class": "item-jar",
+      "description": "<b>Ante:</b> You cannot take more than 4 damage this beat. Your attack does not hit an opponent who did damage to you this beat."
+    },
+    {
+      "ID": "37",
+      "name": "Force Pyramid",
+      "type": "Trinket",
+      "cost": "50",
+      "css-class": "item-pyramid",
+      "description": "<b>Ante:</b> Opponents cannot move past you this beat."
+    },
+    {
+      "ID": "38",
+      "name": "Brambled Rune",
+      "type": "Trinket",
+      "cost": "35",
+      "css-class": "item-rune",
+      "description": "<b>Ante:</b> Declare a range other than your current range to any opponent. Your next attack this beat includes that range."
+    },
+    {
+      "ID": "39",
+      "name": "Phantasmagoric Flame",
+      "type": "Trinket",
+      "cost": "35",
+      "css-class": "item-torch",
+      "description": "<b>Ante:</b> All Fighters lose 2 life and gain +1 Power to their next attack this beat."
+    },
+    {
+      "ID": "40",
+      "name": "Velori's Chalice",
+      "type": "Trinket",
+      "cost": "20",
+      "css-class": "item-chalice",
+      "description": "<b>Ante:</b> Gain 2 life"
+    }
+  ],
+  "weapon": [
+    {
+      "ID": "1",
+      "name": "Wave",
+      "type": "Beta",
+      "color": "purple"
+    },
+    {
+      "ID": "2",
+      "name": "Throw",
+      "type": "Beta",
+      "color": "green"
+    },
+    {
+      "ID": "3",
+      "name": "Spike",
+      "type": "Beta",
+      "color": "blue"
+    },
+    {
+      "ID": "4",
+      "name": "Parry",
+      "type": "Beta",
+      "color": "yellow"
+    },
+    {
+      "ID": "5",
+      "name": "Counter",
+      "type": "Beta",
+      "color": "red"
+    },
+    {
+      "ID": "6",
+      "name": "Force",
+      "type": "Beta",
+      "color": "orange"
+    },
+    {
+      "ID": "7",
+      "name": "Sweep",
+      "type": "Delta",
+      "color": "blue"
+    },
+    {
+      "ID": "8",
+      "name": "Stagger",
+      "type": "Delta",
+      "color": "red"
+    },
+    {
+      "ID": "9",
+      "name": "Lunge",
+      "type": "Delta",
+      "color": "orange"
+    },
+    {
+      "ID": "10",
+      "name": "Leap",
+      "type": "Delta",
+      "color": "purple"
+    },
+    {
+      "ID": "11",
+      "name": "Catch",
+      "type": "Delta",
+      "color": "green"
+    },
+    {
+      "ID": "12",
+      "name": "Block",
+      "type": "Delta",
+      "color": "yellow"
+    },
+    {
+      "ID": "13",
+      "name": "Smoke Bomb",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "14",
+      "name": "Yo-Yo",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "15",
+      "name": "Swordbreaker",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "16",
+      "name": "Scooter Pop",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "17",
+      "name": "Pen Toss",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "18",
+      "name": "Nunchaku",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "19",
+      "name": "Ninja Star",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "20",
+      "name": "Ninja Spark Scroll",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "21",
+      "name": "Ninja Ice Scroll",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "22",
+      "name": "Ninja Fire Scroll",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "23",
+      "name": "Mic Drop",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "24",
+      "name": "Machete Chop",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "25",
+      "name": "Lawnmower",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "26",
+      "name": "Holy Water",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "27",
+      "name": "Hammer Time",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "28",
+      "name": "Grenade",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "29",
+      "name": "Donkey Kick",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "30",
+      "name": "Chainsaw",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "31",
+      "name": "Cape Sweep",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "32",
+      "name": "Boomerang",
+      "type": "Weapon",
+      "color": "other"
+    },
+    {
+      "ID": "33",
+      "name": "Wall Leap",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "34",
+      "name": "Taunt",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "35",
+      "name": "Storm Rage",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "36",
+      "name": "Spark Kick",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "37",
+      "name": "Rising Kick",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "38",
+      "name": "Mega Blaster",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "39",
+      "name": "Hop",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "40",
+      "name": "Harpoon",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "41",
+      "name": "Great Serpent",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "42",
+      "name": "Force Choke",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "43",
+      "name": "Eye Laser",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "44",
+      "name": "Eagle Punch",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "45",
+      "name": "Dragon Punch",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "46",
+      "name": "Divekick",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "47",
+      "name": "Disguise",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "48",
+      "name": "Demon Rage",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "49",
+      "name": "Buster Raccoon",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "50",
+      "name": "Blade Summoning",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "51",
+      "name": "Atomic Crusher",
+      "type": "Special",
+      "color": "other"
+    },
+    {
+      "ID": "52",
+      "name": "Grip",
+      "type": "EX",
+      "color": "green"
+    },
+    {
+      "ID": "53",
+      "name": "Blitz",
+      "type": "EX",
+      "color": "orange"
+    },
+    {
+      "ID": "54",
+      "name": "Riposte",
+      "type": "EX",
+      "color": "blue"
+    },
+    {
+      "ID": "55",
+      "name": "Bolt",
+      "type": "EX",
+      "color": "purple"
+    },
+    {
+      "ID": "56",
+      "name": "Crush",
+      "type": "EX",
+      "color": "red"
+    },
+    {
+      "ID": "57",
+      "name": "Slide",
+      "type": "EX",
+      "color": "yellow"
+    },
+    {
+      "ID": "58",
+      "name": "Slam",
+      "type": "Almighty",
+      "color": "green"
+    },
+    {
+      "ID": "59",
+      "name": "Rush",
+      "type": "Almighty",
+      "color": "orange"
+    },
+    {
+      "ID": "60",
+      "name": "Blaster",
+      "type": "Almighty",
+      "color": "blue"
+    },
+    {
+      "ID": "61",
+      "name": "Cannon",
+      "type": "Almighty",
+      "color": "purple"
+    },
+    {
+      "ID": "62",
+      "name": "Breaker",
+      "type": "Almighty",
+      "color": "red"
+    },
+    {
+      "ID": "63",
+      "name": "Roll",
+      "type": "Almighty",
+      "color": "yellow"
+    },
+    {
+      "ID": "64",
+      "name": "Shot",
+      "type": "Standard",
+      "color": "purple"
+    },
+    {
+      "ID": "65",
+      "name": "Grasp",
+      "type": "Standard",
+      "color": "green"
+    },
+    {
+      "ID": "66",
+      "name": "Burst",
+      "type": "Standard",
+      "color": "blue"
+    },
+    {
+      "ID": "67",
+      "name": "Dash",
+      "type": "Standard",
+      "color": "yellow"
+    },
+    {
+      "ID": "68",
+      "name": "Strike",
+      "type": "Standard",
+      "color": "red"
+    },
+    {
+      "ID": "69",
+      "name": "Drive",
+      "type": "Standard",
+      "color": "orange"
+    }
+  ]
+}

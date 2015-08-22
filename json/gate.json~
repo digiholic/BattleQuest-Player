@@ -1,0 +1,568 @@
+{
+  "dungeon": {
+    "name": "Beyond The Gate",
+    "description": "\"The time has come, Planestalkers,\" Grand Marshal Kaitlyn Van Sorrel addresses the assembly. \"Oriana has declared war on our world, and we must respond in kind. We may not possess the power or weapons to destroy her once and for all, but we can send a message that she won't forget for another thousand years! Now, with me, to the battlefield Beyond the Gate!\"<br/>\r\n<br/>\r\nIn this Dungeon, players may set themselves up in the arena however they wish. All Bosses in this dungeon have 'Multi-Attack' on all attacks.",
+    "tileset": "gate",
+    "starting_gold": "1000",
+    "total_characters": "4",
+    "tag": "0",
+    "floor": [
+      {
+        "name": "Monolith",
+        "startlocation": "1",
+        "description": "If an attack has both the Monolith and at least one ally in range, it hits an ally instead of the Monolith. The Monolith is immobile.",
+        "floor_size": "large",
+        "monsters": "0,5",
+        "adds": "0",
+        "space_classes": "",
+        "next":"1",
+        "bg_classes": ""
+      },
+      {
+        "name": "Destroyer",
+        "startlocation": "1",
+        "description": "During ante, for every 20 HP the Destroyer has lost, it has +1 Power and +1 Priority",
+        "floor_size": "large",
+        "monsters": "1,8",
+        "adds": "0",
+        "space_classes": "",
+        "next":"2",
+        "bg_classes": ""
+      },
+      {
+        "name": "Gilt Titan",
+        "startlocation": "1",
+        "description": "Players must start to the left of the Gilt Titan, and can never move past him. At the end of each beat, advance this boss 1 space. When advancing, he pushes back any opponents in his space. If he pushes the players off the board, they are immediately defeated. Each time he would be stunned, he moves backward one space instead of being stunned. This boss cannot be pushed off the edge of the board.",
+        "floor_size": "large",
+        "monsters": "2,5",
+        "adds": "0",
+        "space_classes": "",
+        "next":"3",
+        "bg_classes": ""
+      },
+      {
+        "name": "Zone Warrior Varles",
+        "startlocation": "1",
+        "description": "Before the battle begins, each player removes a random style and base from the game. These two cards are not usable during the entire duel. Additionally, each time Zone Warrior Varles hits a player, that player moves his discard pile 2 back into discard pile 1. An opponent without enough cards to form an attack pair in his hand skips his turn and plays nothing.",
+        "floor_size": "large",
+        "monsters": "3,7",
+        "adds": "0",
+        "space_classes": "",
+        "next":"4",
+        "bg_classes": ""
+      },
+      {
+        "name": "Protochaon",
+        "startlocation": "1",
+        "description": "This boss rolls additional attacks each beat until he has 4 unique attacks (ignore duplicate attacks). When it would be stunned, discard its lowest priority attack. This boss is immobile. All passive effects of its attacks, such as Stun Guard and Armor, are constant and cumulative.",
+        "floor_size": "large",
+        "monsters": "4,9",
+        "adds": "0",
+        "space_classes": "",
+        "next":"5",
+        "bg_classes": ""
+      },
+      {
+        "name": "Doppelvore",
+        "startlocation": "5",
+        "description": "Each Doppelvore attacks seperately. After activating its own attack, the Doppelvore then performs the attack of its partner (so each one attacks twice). They share one life pool, but are stunned separately. Each has all the passive abilities of the other. (So, if one has Armor 5, they both have Armor 5 individually.)",
+        "floor_size": "large",
+        "monsters": "5,1;5,9",
+        "adds": "0",
+        "space_classes": "",
+        "next":"6",
+        "bg_classes": ""
+      },
+      {
+        "name": "Oriana Apotheosis",
+        "startlocation": "1",
+        "description": "\"Well fought, warriors of the Prime World. You have bested my champions, and now stand before me,\" a voice echoes as though from inside your thoughts. \"There's no need to die in vain. Join me now, and I will give you powers beyond your wildest imagination, as well as dominion over the world you call home. Defy me, and I will erase your very existence from the slate of the universe. Now speak, will you fight, or will you yield?\"",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next":"7",
+        "bg_classes": ""
+      },
+      {
+        "name": "Oriana Apotheosis",
+        "startlocation": "1",
+        "description": "Oriana's Left and Right hands each perform an attack as well. Oriana's hands and face do not take up space, and players can occupy their spaces. Oriana's face and both hands are immobile.<br/>\r\nPlayers may abandon the party and join Oriana permanently if they wish. These players win if the rest of the party loses. The battle ends as soon as Oriana's head is defeated.",
+        "floor_size": "large",
+        "monsters": "8,5;6,2;7,8",
+        "adds": "1",
+        "space_classes": "",
+        "next":"",
+        "bg_classes": "2,ori-lhand;4,ori-lhead;5,ori-chead;6,ori-rhead;8,ori-rhand"
+      }
+    ],
+    "monster": [
+      {
+        "name": "Monolith",
+        "maxHealth": "80",
+        "pClass": "monster-monolith",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Solar Spire",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "5",
+            "description": "<b>Armor 5</b><br/>\r\n<b>Start:</b> Pull the opponent with the lowest priority up to 3 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Zero Convergence",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Stun Guard 4</b><br/>\r\nAttacks at range 1 do not hit you",
+            "chance": "1"
+          },
+          {
+            "name": "Reversion",
+            "attackrange": "1-4",
+            "power": "X",
+            "priority": "4",
+            "description": "<b>Stun Immunity</b><br/>\r\nPower is equal to the damage the Monolith has taken this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Gate Flare",
+            "attackrange": "2-3",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Stun Guard 4</b><br/>\r\n<b>Start:</b> For each player, roll a die and pull the player that many spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Seal Matrix",
+            "attackrange": "1-4",
+            "power": "2",
+            "priority": "4",
+            "description": "<b>Stun Guard 4</b><br/>\r\n<b>Hit:</b> Each hit opponent cannot hit you this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Microwave Beam",
+            "attackrange": "X",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Stun Guard 6</b><br/>\r\nX is nearest opponent's space.<br/>\r\n<b>Hit:</b> +3 Power for each opponent in the target space",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Destroyer",
+        "maxHealth": "120",
+        "pClass": "monster-destroyer",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Electroclaw",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "3",
+            "description": "<b>Armor 5</b><br/>\r\n<b>Before:</b> Advance up to 2",
+            "chance": "1"
+          },
+          {
+            "name": "Nitro Breath Beam",
+            "attackrange": "1-6",
+            "power": "7",
+            "priority": "1",
+            "description": "<b>Armor 6</b><br/>\r\n<b>Start:</b> Retreat 3",
+            "chance": "1"
+          },
+          {
+            "name": "Link Surge",
+            "attackrange": "X",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Stun Guard 4</b><br/>\r\n<b>Start:</b> Advance as far as possible. X is all opponents you switched sides with this beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Nyx Revision",
+            "attackrange": "4-7",
+            "power": "4",
+            "priority": "3",
+            "description": "Opponents at range 1,2, and 3 cannot hit you.<br/>\r\n<b>Start:</b> Retreat as far as possible<br/>\r\n<b>End:</b> Advance 4 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Nihil Buster",
+            "attackrange": "3",
+            "power": "10",
+            "priority": "6",
+            "description": "<b>Armor 4</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Protocol Zero",
+            "attackrange": "2-5",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Reveal:</b> Double the Power and Priority bonuses you gained during ante.<br/>\r\n<b>Before:</b> Advance 3 spaces<br/>\r\n<b>After:</b> Retreat 3 spaces",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Gilt Titan",
+        "maxHealth": "150",
+        "pClass": "monster-irontitan",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Advance Primary",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "3",
+            "description": "When you push opponents this beat, do 3 damage to them.<br/>\r\n<b>Before:</b> Advance 1 space",
+            "chance": "1"
+          },
+          {
+            "name": "Advance Secondary",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "0",
+            "description": "<b>Armor 12</b><br/>\r\n<b>Before:</b> Advance up to 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Kick",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Stun Guard 3</b><br/>\r\n<b>Damage:</b> Push all damaged opponents back as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Steady Advance",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Magnet Blade",
+            "attackrange": "2-5",
+            "power": "3",
+            "priority": "2",
+            "description": "<b>Armor 8</b><br/>\r\n<b>Hit:</b> Pull each hit opponent as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Sword Beam",
+            "attackrange": "1-8",
+            "power": "X",
+            "priority": "2",
+            "description": "<b>Stun Guard 6</b><br/>\r\nX is the number of spaces to the left of you",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Zone Warrior Varles",
+        "maxHealth": "80",
+        "pClass": "monster-planeslaver",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Zone Edge",
+            "attackrange": "1-3",
+            "power": "5",
+            "priority": "6",
+            "description": "<b>Hit:</b> The opponent is stunned.<br/>\r\n<b>End:</b> Advance 4",
+            "chance": "1"
+          },
+          {
+            "name": "Burner Blade",
+            "attackrange": "2",
+            "power": "7",
+            "priority": "4",
+            "description": "<b>Stun Guard 6</b><br/>\r\n<b>Before:</b> Retreat up to 1<br/>\r\n<b>End:</b> Advance 4 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Painforge",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "2",
+            "description": "<b>Stun Immunity</b><br/>\r\n+4 Power each time you are hit this beat.<br/>\r\n<b>Before:</b> Advance up to 2<br/>\r\n<b>End:</b> Retreat as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Skill Absorption",
+            "attackrange": "1-8",
+            "power": "1",
+            "priority": "3",
+            "description": "<b>Armor 12</b><br/>\r\n<b>Hit:</b> The opponent's played Base is removed from the game.<br/>\r\n<b>End:</b> Advance as far as possible.",
+            "chance": "1"
+          },
+          {
+            "name": "Dynamic Force",
+            "attackrange": "1-4",
+            "power": "6",
+            "priority": "6",
+            "description": "<b>Start:</b> Advance 3 spaces<br/>\r\n<b>End:</b> Retreat 3 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Worlds' Fair",
+            "attackrange": "4-7",
+            "power": "7",
+            "priority": "5",
+            "description": "<b>Armor 7</b><br/>\r\n<b>Start:</b> Retreat as far as possible<br/>\r\n<b>Hit:</b> For each hit opponent, roll a die and pull him that many spaces",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Protochaon",
+        "maxHealth": "90",
+        "pClass": "monster-singularity",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Havoc Pulse",
+            "attackrange": "1-8",
+            "power": "11",
+            "priority": "0",
+            "description": "Ignore Soak",
+            "chance": "1"
+          },
+          {
+            "name": "Nyx Alpha",
+            "attackrange": "3-5",
+            "power": "7",
+            "priority": "2",
+            "description": "<b>Stun Guard 3</b><br/>\r\nOpponents in range of this attack cannot move.",
+            "chance": "1"
+          },
+          {
+            "name": "Nyx Beta",
+            "attackrange": "1-2",
+            "power": "7",
+            "priority": "3",
+            "description": "<b>Armor 3</b><br/>\r\n<b>Before:</b> Push each adjacent opponent 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Nyx Gamma",
+            "attackrange": "6-8",
+            "power": "7",
+            "priority": "4",
+            "description": "<b>Soak 2</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Leading Light",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "6",
+            "description": "<b>Hit:</b> You have +1 Power per opponent hit for the rest of the beat",
+            "chance": "1"
+          },
+          {
+            "name": "Sunspot",
+            "attackrange": "1-5",
+            "power": "3",
+            "priority": "8",
+            "description": "Ignores Stun Guard<br/>\r\nOnly hits the closest un-stunned enemy in range.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Doppelvore",
+        "maxHealth": "120",
+        "pClass": "monster-aberrant",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Tentacle Reel",
+            "attackrange": "1-3",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Hit:</b> Push the opponent as far as possible",
+            "chance": "1"
+          },
+          {
+            "name": "Constriction",
+            "attackrange": "1-2",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Stun Guard 3</b><br/>\r\nOpponents in range of this attack cannot move",
+            "chance": "1"
+          },
+          {
+            "name": "Tentacle Snap",
+            "attackrange": "3-6",
+            "power": "5",
+            "priority": "2",
+            "description": "<b>Armor 3</b><br/>\r\n<b>Before:</b> Push each adjacent opponent 2 spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Spike Shell",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "0",
+            "description": "<b>Armor 4</b><br/>\r\nEach time an opponent attacls at range 1 or 2, he loses 4 life",
+            "chance": "1"
+          },
+          {
+            "name": "Impale",
+            "attackrange": "2-3",
+            "power": "6",
+            "priority": "1",
+            "description": "<b>Stun Guard 3</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Swipe",
+            "attackrange": "3-5",
+            "power": "3",
+            "priority": "7",
+            "description": "<b>Hit:</b> Each hit opponent is stunned",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Left Hand - Ambition",
+        "maxHealth": "40",
+        "pClass": "monster-boriana",
+        "attribute": [
+          {
+            "name": "Ambition",
+            "description": "Oriana has +2 Priority while this hand lives."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Mastery",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> Oriana has +5 Power and <b>Stun Guard 5</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Dominance",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> Oriana has Armor 10",
+            "chance": "1"
+          },
+          {
+            "name": "Eternity",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> Oriana regains 10 life",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Right Hand - Power",
+        "maxHealth": "40",
+        "pClass": "monster-coriana",
+        "attribute": [
+          {
+            "name": "Power",
+            "description": "Oriana has +2 Power while this hand lives."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Oppression",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> Opponents have -3 Power and lose all Stun Guard when they hit Oriana",
+            "chance": "1"
+          },
+          {
+            "name": "Control",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> For each opponent, roll a die, then move the opponent that many spaces towards the farthest edge of the board.",
+            "chance": "1"
+          },
+          {
+            "name": "Seize",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "9",
+            "description": "<b>After:</b> All boosts to power are ignored for players this beat, and applied to Oriana instead",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Oriana Apotheosis",
+        "maxHealth": "200",
+        "pClass": "monster-aoriana",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Third Eye",
+            "attackrange": "X",
+            "power": "5",
+            "priority": "7",
+            "description": "X is Oriana's face and two adjacent spaces.<br/>\r\n<b>Hit:</b> Remove the opponent's attack pair from the game",
+            "chance": "1"
+          },
+          {
+            "name": "Meteor Storm",
+            "attackrange": "X",
+            "power": "6",
+            "priority": "5",
+            "description": "<b>Stun Immunity</b><br/>\r\nX is all gray-colored spaces",
+            "chance": "1"
+          },
+          {
+            "name": "Astral Claws",
+            "attackrange": "X",
+            "power": "7",
+            "priority": "2",
+            "description": "<b>Stun Immunity</b><br/>\r\nX is the spaces occupied by and adjacent to living hands",
+            "chance": "1"
+          },
+          {
+            "name": "Black Hole",
+            "attackrange": "X",
+            "power": "12",
+            "priority": "1",
+            "description": "<b>Armor 14</b><br/>\r\nAfter a player activates an attack, he is moved directly to arena center.<br/>\r\nX is the spaces occupied by and adjacent to Oriana's face",
+            "chance": "1"
+          },
+          {
+            "name": "Galaxy Crush",
+            "attackrange": "X",
+            "power": "12",
+            "priority": "9",
+            "description": "X is far edges of the arena",
+            "chance": "1"
+          },
+          {
+            "name": "Hand of Fate",
+            "attackrange": "X",
+            "power": "7",
+            "priority": "1",
+            "description": "<b>Stun Immunity</b><br/>\r\nX is the spaces occupied by and adjacent to living hands<br/>\r\n<b>After:</b> Restore defeated hands to full life. Lose 15 life per hand restored.",
+            "chance": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

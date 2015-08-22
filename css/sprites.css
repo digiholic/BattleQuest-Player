@@ -1,0 +1,886 @@
+/** MONSTER IMAGE CLASSES */
+
+.monster-zombie{
+  background-image: url('../assets/Monsters/ZombieSoldier.png');
+  background-size: 100% 100%;
+}
+
+.monster-imp{
+  background-image: url('../assets/Monsters/Imp.png');
+  background-size: 100% 100%;
+}
+
+.monster-dWisp{
+  background-image: url('../assets/Monsters/ElemOrbDark.png');
+  background-size: 100% 100%;
+}
+
+.monster-wWolf{
+  background-image: url('../assets/Monsters/Wolfman.png');
+  background-size: 100% 100%;
+}
+
+.monster-ooze{
+  background-image: url('../assets/Monsters/Slime.png');
+  background-size: 100% 100%;
+}
+
+.monster-ancella{
+  background-image: url('../assets/Monsters/Ancella.png');
+  background-size: 100% 100%;
+}
+
+.monster-pistolier{
+  background-image: url('../assets/Monsters/Pistolier.png');
+  background-size: 100% 100%;
+}
+
+.monster-maskedthief{
+  background-image: url('../assets/Monsters/MaskedThief.png');
+  background-size: 100% 100%;
+}
+
+.monster-explorer{
+  background-image: url('../assets/Monsters/Explorer.png');
+  background-size: 100% 100%;
+}
+
+.monster-stoneguardian{
+  background-image: url('../assets/Monsters/StoneGuardian.png');
+  background-size: 100% 100%;
+}
+
+.monster-mummypriest{
+  background-image: url('../assets/Monsters/MummyPriest.png');
+  background-size: 100% 100%;
+}
+
+.monster-mummysoldier{
+  background-image: url('../assets/Monsters/MummySoldier.png');
+  background-size: 100% 100%;
+}
+
+.monster-mummydog{
+  background-image: url('../assets/Monsters/MummyDog.png');
+  background-size: 100% 100%;
+}
+
+.monster-mummybishop{
+  background-image: url('../assets/Monsters/MummyBishop.png');
+  background-size: 100% 100%;
+}
+
+.monster-treasuregolem{
+  background-image: url('../assets/Monsters/TreasureGolem.png');
+  background-size: 100% 100%;
+}
+
+.monster-adam{
+  background-image: url('../assets/Monsters/ADAM.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemfire {
+  background-image: url('../assets/Monsters/ElemFire.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemwater {
+  background-image: url('../assets/Monsters/ElemWater.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemearth {
+  background-image: url('../assets/Monsters/ElemEarth.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemwind {
+  background-image: url('../assets/Monsters/ElemWind.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemlight {
+  background-image: url('../assets/Monsters/ElemLight.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemlightning {
+  background-image: url('../assets/Monsters/ElemElectric.png');
+  background-size: 100% 100%;
+}
+
+.monster-elemdark {
+  background-image: url('../assets/Monsters/ElemDark.png');
+  background-size: 100% 100%;
+}
+
+.monster-runeknight {
+  background-image: url('../assets/Monsters/RuneKnight.png');
+  background-size: 100% 100%;
+}
+
+.monster-turret {
+  background-image: url('../assets/Monsters/Turret.png');
+  background-size: 100% 100%;
+}
+
+.monster-soundblaster {
+  background-image: url('../assets/Monsters/SoundBlaster.png');
+  background-size: 100% 100%;
+}
+
+.monster-poltergeist {
+  background-image: url('../assets/Monsters/Poltergeist.png');
+  background-size: 100% 100%;
+}
+
+.monster-walker {
+  background-image: url('../assets/Monsters/Walker.png');
+  background-size: 100% 100%;
+}
+
+.monster-hologram {
+  background-image: url('../assets/Monsters/Hologram.png');
+  background-size: 100% 100%;
+}
+
+.monster-homunculus {
+  background-image: url('../assets/Monsters/Homunculus.png');
+  background-size: 100% 100%;
+}
+
+.monster-servitor {
+  background-image: url('../assets/Monsters/Servitor.png');
+  background-size: 100% 100%;
+}
+
+.monster-framboisemlph {
+  background-image: url('../assets/Monsters/FramboiseMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-arielmlph {
+  background-image: url('../assets/Monsters/ArielMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-lucidamlph {
+  background-image: url('../assets/Monsters/LucidaMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-candidemlph {
+  background-image: url('../assets/Monsters/CandideMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-doloresmlph {
+  background-image: url('../assets/Monsters/DoloresMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-seramlph {
+  background-image: url('../assets/Monsters/SeraMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-nabatinamlph {
+  background-image: url('../assets/Monsters/NabatinaMlph.png');
+  background-size: 100% 100%;
+}
+
+.monster-monolith {
+  background-image: url('../assets/Monsters/Monolith.png');
+  background-size: 100% 100%;
+}
+
+.monster-destroyer {
+  background-image: url('../assets/Monsters/Destroyer.png');
+  background-size: 100% 100%;
+}
+
+.monster-irontitan {
+  background-image: url('../assets/Monsters/IronTitan.png');
+  background-size: 100% 100%;
+}
+
+.monster-planeslaver {
+  background-image: url('../assets/Monsters/Planeslaver.png');
+  background-size: 100% 100%;
+}
+
+.monster-aberrant {
+  background-image: url('../assets/Monsters/Aberrant.png');
+  background-size: 100% 100%;
+}
+
+.monster-singularity {
+  background-image: url('../assets/Monsters/Singularity.png');
+  background-size: 100% 100%;
+}
+
+.monster-aoriana {
+  background-image: url('../assets/Monsters/aOriana.png');
+  background-size: 100% 100%;
+}
+
+.monster-boriana {
+  background-image: url('../assets/Monsters/bOriana.png');
+  background-size: 100% 100%;
+}
+
+.monster-coriana {
+  background-image: url('../assets/Monsters/cOriana.png');
+  background-size: 100% 100%;
+}
+
+/** Oriana is a background, not a sprite, so her sprites should not show up on the board*/
+.game-sprite.monster-aoriana {
+  background-image: none !important;
+}
+
+.game-sprite.monster-boriana {
+  background-image: none !important;
+}
+
+.game-sprite.monster-coriana {
+  background-image: none !important;
+}
+
+/** PLAYER IMAGE CLASSES */
+.player-hikaru{
+  background-image: url('../assets/Heroes/Hikaru.png');
+  background-size: 100% 100%;
+}
+
+.player-cadenza{
+  background-image: url('../assets/Heroes/Cadenza.png');
+  background-size: 100% 100%;
+}
+
+.player-cherri{
+  background-image: url('../assets/Heroes/Cherri.png');
+  background-size: 100% 100%;
+}
+
+.player-demitras{
+  background-image: url('../assets/Heroes/Demitras.png');
+  background-size: 100% 100%;
+}
+
+.player-heketch{
+  background-image: url('../assets/Heroes/Heketch.png');
+  background-size: 100% 100%;
+}
+
+.player-hepzibah{
+  background-image: url('../assets/Heroes/Hepzibah.png');
+  background-size: 100% 100%;
+}
+
+.player-juto{
+  background-image: url('../assets/Heroes/Juto.png');
+  background-size: 100% 100%;
+}
+
+.player-kallistar{
+  background-image: url('../assets/Heroes/Kallistar.png');
+  background-size: 100% 100%;
+}
+
+.player-kehrolyn{
+  background-image: url('../assets/Heroes/Kehrolyn.png');
+  background-size: 100% 100%;
+}
+
+.player-khadath{
+  background-image: url('../assets/Heroes/Khadath.png');
+  background-size: 100% 100%;
+}
+
+.player-lixis{
+  background-image: url('../assets/Heroes/Lixis.png');
+  background-size: 100% 100%;
+}
+
+.player-luc{
+  background-image: url('../assets/Heroes/Luc.png');
+  background-size: 100% 100%;
+}
+
+.player-magdelina{
+  background-image: url('../assets/Heroes/Magdelina.png');
+  background-size: 100% 100%;
+}
+
+.player-rukyuk{
+  background-image: url('../assets/Heroes/Rukyuk.png');
+  background-size: 100% 100%;
+}
+
+.player-sagas{
+  background-image: url('../assets/Heroes/Sagas.png');
+  background-size: 100% 100%;
+}
+
+.player-seth{
+  background-image: url('../assets/Heroes/Seth.png');
+  background-size: 100% 100%;
+}
+
+.player-tatsumi{
+  background-image: url('../assets/Heroes/Tatsumi.png');
+  background-size: 100% 100%;
+}
+
+.player-vanaah{
+  background-image: url('../assets/Heroes/Vanaah.png');
+  background-size: 100% 100%;
+}
+
+.player-zaamassal{
+  background-image: url('../assets/Heroes/Zaamassal.png');
+  background-size: 100% 100%;
+}
+
+.player-adjenna{
+  background-image: url('../assets/Heroes/Adjenna.png');
+  background-size: 100% 100%;
+}
+
+.player-alexian{
+  background-image: url('../assets/Heroes/AlexianB.png');
+  background-size: 100% 100%;
+}
+
+.player-arec{
+  background-image: url('../assets/Heroes/Arec.png');
+  background-size: 100% 100%;
+}
+
+.player-aria{
+  background-image: url('../assets/Heroes/Aria.png');
+  background-size: 100% 100%;
+}
+
+.player-borneo{
+  background-image: url('../assets/Heroes/Borneo.png');
+  background-size: 100% 100%;
+}
+
+.player-byron{
+  background-image: url('../assets/Heroes/Byron.png');
+  background-size: 100% 100%;
+}
+
+.player-clinhyde{
+  background-image: url('../assets/Heroes/Clinhyde.png');
+  background-size: 100% 100%;
+}
+
+.player-eligor{
+  background-image: url('../assets/Heroes/Eligor.png');
+  background-size: 100% 100%;
+}
+
+.player-endrbyt{
+  background-image: url('../assets/Heroes/Endrbyt.png');
+  background-size: 100% 100%;
+}
+
+.player-gaspar{
+  background-image: url('../assets/Heroes/Gaspar.png');
+  background-size: 100% 100%;
+}
+
+.player-gerard{
+  background-image: url('../assets/Heroes/Gerard.png');
+  background-size: 100% 100%;
+}
+
+.player-iaxus{
+  background-image: url('../assets/Heroes/Iaxus.png');
+  background-size: 100% 100%;
+}
+
+.player-jager{
+  background-image: url('../assets/Heroes/Jager.png');
+  background-size: 100% 100%;
+}
+
+.player-joal{
+  background-image: url('../assets/Heroes/Joal.png');
+  background-size: 100% 100%;
+}
+
+.player-kaitlyn{
+  background-image: url('../assets/Heroes/Kaitlyn.png');
+  background-size: 100% 100%;
+}
+
+.player-kajia{
+  background-image: url('../assets/Heroes/Kajia.png');
+  background-size: 100% 100%;
+}
+
+.player-karin{
+  background-image: url('../assets/Heroes/Karin.png');
+  background-size: 100% 100%;
+}
+
+.player-lesandra{
+  background-image: url('../assets/Heroes/Lesandra.png');
+  background-size: 100% 100%;
+}
+
+.player-malandrax{
+  background-image: url('../assets/Heroes/Malandrax.png');
+  background-size: 100% 100%;
+}
+
+.player-marmelee{
+  background-image: url('../assets/Heroes/Marmelee.png');
+  background-size: 100% 100%;
+}
+
+.player-mikhail{
+  background-image: url('../assets/Heroes/Mikhail.png');
+  background-size: 100% 100%;
+}
+
+.player-oriana{
+  background-image: url('../assets/Heroes/Oriana.png');
+  background-size: 100% 100%;
+}
+
+.player-ottavia{
+  background-image: url('../assets/Heroes/Ottavia.png');
+  background-size: 100% 100%;
+}
+
+.player-pendros{
+  background-image: url('../assets/Heroes/Pendros.png');
+  background-size: 100% 100%;
+}
+
+.player-rexan{
+  background-image: url('../assets/Heroes/Rexan.png');
+  background-size: 100% 100%;
+}
+
+.player-runika{
+  background-image: url('../assets/Heroes/Runika.png');
+  background-size: 100% 100%;
+}
+
+.player-shehktur{
+  background-image: url('../assets/Heroes/Shehktur.png');
+  background-size: 100% 100%;
+}
+
+.player-tanis{
+  background-image: url('../assets/Heroes/Tanis.png');
+  background-size: 100% 100%;
+}
+
+.player-voco{
+  background-image: url('../assets/Heroes/Voco.png');
+  background-size: 100% 100%;
+}
+
+.player-burman{
+  background-image: url('../assets/Heroes/Burman.png');
+  background-size: 100% 100%;
+}
+
+.player-clive{
+  background-image: url('../assets/Heroes/Clive.png');
+  background-size: 100% 100%;
+}
+
+.player-alumis{
+  background-image: url('../assets/Heroes/Alumis.png');
+  background-size: 100% 100%;
+}
+
+.player-baenvier{
+  background-image: url('../assets/Heroes/Baenvier.png');
+  background-size: 100% 100%;
+}
+
+.player-iri{
+  background-image: url('../assets/Heroes/Iri.png');
+  background-size: 100% 100%;
+}
+
+.player-cesar{
+  background-image: url('../assets/Heroes/Cesar.png');
+  background-size: 100% 100%;
+}
+
+.player-eustace{
+  background-image: url('../assets/Heroes/Eustace.png');
+  background-size: 100% 100%;
+}
+
+.player-lymn{
+  background-image: url('../assets/Heroes/Lymn.png');
+  background-size: 100% 100%;
+}
+
+.player-xenitia{
+  background-image: url('../assets/Heroes/Xenitia.png');
+  background-size: 100% 100%;
+}
+
+.player-thessala{
+  background-image: url('../assets/Heroes/Thessala.png');
+  background-size: 100% 100%;
+}
+
+.player-welsie{
+  background-image: url('../assets/Heroes/Welsie.png');
+  background-size: 100% 100%;
+}
+
+/** ITEM SPRITES */
+.item-lifepot{
+  background-image: url('../assets/Items/PotionLife.png');
+  background-size: 100% 100%;
+}
+
+.item-manapot{
+  background-image: url('../assets/Items/PotionMana.png');
+  background-size: 100% 100%;
+}
+
+.item-spirits{
+  background-image: url('../assets/Items/PotionSpirit.png');
+  background-size: 100% 100%;
+}
+
+.item-speedpot{
+  background-image: url('../assets/Items/PotionSwiftness.png');
+  background-size: 100% 100%;
+}
+
+.item-telepot{
+  background-image: url('../assets/Items/PotionMobility.png');
+  background-size: 100% 100%;
+}
+
+.item-ragepot{
+  background-image: url('../assets/Items/PotionStrength.png');
+  background-size: 100% 100%;
+}
+
+.item-shieldpot{
+  background-image: url('../assets/Items/PotionDefense.png');
+  background-size: 100% 100%;
+}
+
+.item-limit{
+  background-image: url('../assets/Items/PotionRage.png');
+  background-size: 100% 100%;
+}
+
+.item-eye{
+  background-image: url('../assets/Items/ArcaneEyeCharm.png');
+  background-size: 100% 100%;
+}
+
+/** TRINKETS */
+.item-glove{
+  background-image: url('../assets/Items/PowerGlove.png');
+  background-size: 100% 100%;
+}
+
+.item-shoes{
+  background-image: url('../assets/Items/SprintShoes.png');
+  background-size: 100% 100%;
+}
+
+.item-cloak{
+  background-image: url('../assets/Items/PhaseCloak.png');
+  background-size: 100% 100%;
+}
+
+.item-autodeflector{
+  background-image: url('../assets/Items/DeflectorAmulet.png');
+  background-size: 100% 100%;
+}
+
+.item-charm{
+  background-image: url('../assets/Items/DisplacementCharm.png');
+  background-size: 100% 100%;
+}
+
+.item-stone{
+  background-image: url('../assets/Items/HealingStone.png');
+  background-size: 100% 100%;
+}
+
+.item-rosary{
+  background-image: url('../assets/Items/BlackRosary.png');
+  background-size: 100% 100%;
+}
+
+.item-shroud{
+  background-image: url('../assets/Items/SilverishCape.png');
+  background-size: 100% 100%;
+}
+
+.item-feather{
+  background-image: url('../assets/Items/BlueFeather.png');
+  background-size: 100% 100%;
+}
+
+.item-box{
+  background-image: url('../assets/Items/ChainedBox.png');
+  background-size: 100% 100%;
+}
+
+.item-mask{
+  background-image: url('../assets/Items/RageMask.png');
+  background-size: 100% 100%;
+}
+
+.item-lantern{
+  background-image: url('../assets/Items/ShutteredLantern.png');
+  background-size: 100% 100%;
+}
+
+.item-jar{
+  background-image: url('../assets/Items/CanopticJar.png');
+  background-size: 100% 100%;
+}
+
+.item-pyramid{
+  background-image: url('../assets/Items/GlassPyramid.png');
+  background-size: 100% 100%;
+}
+
+.item-rune{
+  background-image: url('../assets/Items/StoneBlockWithGlowishThornishRoseEngravedYaddaYaddaYadda.png');
+  background-size: 100% 100%;
+}
+
+.item-torch{
+  background-image: url('../assets/Items/RainbowTorch.png');
+  background-size: 100% 100%;
+}
+
+.item-chalice{
+  background-image: url('../assets/Items/OrnateChalice.png');
+  background-size: 100% 100%;
+}
+
+/** ARMOR */
+.item-leather{
+  background-image: url('../assets/Items/LeatherArmor.png');
+  background-size: 100% 100%;
+}
+
+.item-bronze{
+  background-image: url('../assets/Items/BronzeArmor.png');
+  background-size: 100% 100%;
+}
+
+.item-iron{
+  background-image: url('../assets/Items/IronArmor.png');
+  background-size: 100% 100%;
+}
+
+.item-steel{
+  background-image: url('../assets/Items/SteelArmor.png');
+  background-size: 100% 100%;
+}
+
+.item-diamond{
+  background-image: url('../assets/Items/DiamondArmor.png');
+  background-size: 100% 100%;
+}
+
+.item-vSilver{
+  background-image: url('../assets/Items/DarkArmor.png');
+  background-size: 100% 100%;
+}
+
+/** WEAPONS */
+.item-foreign{
+  background-image: url('../assets/Items/ForeignWeapon.png');
+  background-size: 100% 100%;
+}
+
+.item-expert{
+  background-image: url('../assets/Items/ExpertWeapon.png');
+  background-size: 100% 100%;
+}
+
+.item-legendary{
+  background-image: url('../assets/Items/LegendaryWeapon.png');
+  background-size: 100% 100%;
+}
+
+/** RELICS */
+.item-costume{
+  background-image: url('../assets/Items/FancyHatThatBradAddedInTheLastMinute.png');
+  background-size: 100% 100%;
+}
+
+.item-contract{
+  background-image: url('../assets/Items/DevilContract.png');
+  background-size: 100% 100%;
+}
+
+.item-authority{
+  background-image: url('../assets/Items/DivineContract.png');
+  background-size: 100% 100%;
+}
+
+.item-henchman{
+  background-image: url('../assets/Items/Contract.png');
+  background-size: 100% 100%;
+}
+
+.item-key{
+  background-image: url('../assets/Items/PTFreelancersLOGOicon001.png');
+  background-size: 100% 100%;
+}
+
+/**
+ * FLOOR TILESETS
+ */
+.space.crypt {
+  background-image: url('../assets/Stage/crypt_panel.png');
+  outline: 0px solid black;
+}
+
+.space.space-red.crypt {
+  background-image: url('../assets/Stage/crypt_panel_red.png');
+  outline: 0px solid black;
+}
+
+.space.tomb {
+  background-image: url('../assets/Stage/tomb_panel.png');
+  outline: 0px solid black;
+}
+
+.space.spire {
+  background-image: url('../assets/Stage/spire_panel.png');
+  outline: 0px solid black;
+}
+
+.space.spire.space-shroom {
+  background-image: url('../assets/Stage/spire_panel_shroom.png');
+  outline: 0px solid black;
+}
+
+.space.hell.space-even {
+  background-image: url('../assets/Stage/well_panel_red.png');
+  outline: 0px solid black;
+}
+
+.space.hell.space-odd {
+  background-image: url('../assets/Stage/well_panel_yellow.png');
+  outline: 0px solid black;
+}
+
+.space.gate.space-odd {
+  background-image: url('../assets/Stage/gate_panel_red.png');
+  outline: 0px solid black;
+}
+
+.space.gate.space-even {
+  background-image: url('../assets/Stage/gate_panel.png');
+  outline: 0px solid black;
+}
+
+.space-bg.crypt {
+  background-image: url('../assets/Stage/bg_crypt.png');
+}
+
+.space-bg.crypt-door {
+  background-image: url('../assets/Stage/bg_crypt_door.png');
+}
+
+.space-bg.crypt-torch {
+  background-image: url('../assets/Stage/bg_crypt_torch.png');
+}
+
+.space-bg.crypt-brace {
+  background-image: url('../assets/Stage/bg_crypt_brace.png');
+}
+
+.space-bg.crypt-torchbrace {
+  background-image: url('../assets/Stage/bg_crypt_brace_torch.png');
+}
+
+.space-bg.tomb {
+  background-image: url('../assets/Stage/bg_tomb.png');
+}
+
+.space-bg.tomb-door {
+  background-image: url('../assets/Stage/bg_tomb_door.png');
+}
+
+.space-bg.tomb-tablet {
+  background-image: url('../assets/Stage/bg_tomb_tablet.png');
+}
+
+.space-bg.tomb-crackL {
+  background-image: url('../assets/Stage/bg_tomb_crackL.png');
+}
+
+.space-bg.tomb-crackR {
+  background-image: url('../assets/Stage/bg_tomb_crackR.png');
+}
+
+.space-bg.spire {
+  background-image: url('../assets/Stage/bg_spire.png');
+}
+
+.space-bg.spire-door {
+  background-image: url('../assets/Stage/bg_spire_door.png');
+}
+
+.space-bg.hell {
+  background-image: url('../assets/Stage/bg_well.png');
+}
+
+.space-bg.hell-door {
+  background-image: url('../assets/Stage/bg_well_door.png');
+}
+
+.space-bg.hell-mountain {
+  background-image: url('../assets/Stage/bg_well_mountain.png');
+}
+
+.space-bg.hell-castle {
+  background-image: url('../assets/Stage/bg_well_castle.png');
+}
+
+.space-bg.gate {
+  background-image: url('../assets/Stage/bg_well.png');
+}
+
+.space-bg.ori-lhand {
+  background-image: url('../assets/Stage/bg_gate_lHand.png');
+}
+
+.space-bg.ori-rhand {
+  background-image: url('../assets/Stage/bg_gate_rHand.png');
+}
+
+.space-bg.ori-lhead {
+  background-image: url('../assets/Stage/bg_gate_lHead.png');
+}
+
+.space-bg.ori-chead {
+  background-image: url('../assets/Stage/bg_gate_cHead.png');
+}
+
+.space-bg.ori-rhead {
+  background-image: url('../assets/Stage/bg_gate_rHead.png');
+}

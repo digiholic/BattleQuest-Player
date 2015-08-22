@@ -1,0 +1,467 @@
+{
+  "dungeon": {
+    "name": "Magister Kilgrem's Laboratory",
+    "description": "Magister Kilgrem owned a remote laboratory on the islands off the northern coast of Relecour. After not hearing from him for two years, the Magisterial Council has finally decided to set out a bounty for any adventurers who can bring back news of Kilgrem and his fate.",
+    "tileset": "lab",
+    "starting_gold": "150",
+    "total_characters": "2",
+    "tag": "1",
+    "floor": [
+      {
+        "name": "Security Checkpoint A",
+        "startlocation": "2",
+        "description": "Bonus: Complete this room without switching characters to gain 5 gold.",
+        "floor_size": "large",
+        "monsters": "2,3;2,5;0,6;0,8",
+        "adds": "0",
+        "space_classes": "",
+        "next": "1",
+        "bg_classes": ""
+      },
+      {
+        "name": "Kill Box",
+        "startlocation": "5",
+        "description": "When you take damage in this room, switch characters at the end of the beat.",
+        "floor_size": "large",
+        "monsters": "1,1;0,3;0,7;1,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "2,4",
+        "bg_classes": ""
+      },
+      {
+        "name": "High Security Room",
+        "startlocation": "2",
+        "description": "Finish this room in 6 beats or less to gain 10 gold.",
+        "floor_size": "medium",
+        "monsters": "3,6",
+        "adds": "0",
+        "space_classes": "",
+        "next": "3",
+        "bg_classes": ""
+      },
+      {
+        "name": "Life Support Control Room",
+        "startlocation": "1",
+        "description": "You come upon a room with 3 switches that are interlinked. You can activate one of them.<br/>\n- Restore 10 life to your characters, divided as you wish.<br/>\n- All Homunculi lose 2 life at the end of each beat.<br/>\n- The final boss loses 3 life at the end of each beat.<br/>\n<br/>\nYou also find a Vending Machine -- you can visit the armory here",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "5",
+        "bg_classes": ""
+      },
+      {
+        "name": "Security Checkpoint B",
+        "startlocation": "8",
+        "description": "You do not have to defeat the Security Hologram to complete this room",
+        "floor_size": "large",
+        "monsters": "4,1;1,4;0,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "5",
+        "bg_classes": ""
+      },
+      {
+        "name": "Security Checkpoint C",
+        "startlocation": "8",
+        "description": "Bonus: If you complete this room without switching characters, gain 5 gold.",
+        "floor_size": "large",
+        "monsters": "4,1;5,3;5,6;0,9",
+        "adds": "1",
+        "space_classes": "",
+        "next": "6,7",
+        "bg_classes": ""
+      },
+      {
+        "name": "Machine Lab",
+        "startlocation": "1",
+        "description": "This room is filled with components for upgrading your equipment.<br/>\n<br/>\nGain 25 gold and visit the Armory. However, you may only buy Weapons here.",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "8",
+        "bg_classes": ""
+      },
+      {
+        "name": "Restricted Zone",
+        "startlocation": "6",
+        "description": "This room is complete as soon as the Killbot is destroyed",
+        "floor_size": "large",
+        "monsters": "1,1;1,2;1,3;3,8",
+        "adds": "0",
+        "space_classes": "",
+        "next": "9",
+        "bg_classes": ""
+      },
+      {
+        "name": "Spawning Room",
+        "startlocation": "5",
+        "description": "Each time a Homunculus is defeated, other Homunculi lose 1 life.",
+        "floor_size": "large",
+        "monsters": "5,2;5,4;5,7;5,9",
+        "adds": "1",
+        "space_classes": "",
+        "next": "10",
+        "bg_classes": ""
+      },
+      {
+        "name": "Transmutation Lab",
+        "startlocation": "1",
+        "description": "You find a strange potion on the table which has the power to drastically alter your capabilities.<br/><br/>\nIf you decide to drink the potion, replace one of your characters with another character. That character retains your equipment, current, and maximum life.",
+        "floor_size": "decision",
+        "monsters": "",
+        "adds": "0",
+        "space_classes": "",
+        "next": "10",
+        "bg_classes": ""
+      },
+      {
+        "name": "Spawning Room B",
+        "startlocation": "5",
+        "description": "Each time a Protohomunculus is defeated, add another one in the same space as a Homunculus. If both Homunculi are defeated, do not add more Protohomunculi when defeating one.",
+        "floor_size": "large",
+        "monsters": "5,4;2,6;2,7;5,9",
+        "adds": "1",
+        "space_classes": "",
+        "next": "11",
+        "bg_classes": ""
+      },
+      {
+        "name": "Kilgrem's Last Experiment",
+        "startlocation": "1",
+        "description": "Play with both of your characters simultaneously during this battle. They start in the rightmost space. Use a token to mark their location.",
+        "floor_size": "medium",
+        "monsters": "6,4",
+        "adds": "0",
+        "space_classes": "",
+        "next": "",
+        "bg_classes": ""
+      }
+    ],
+    "monster": [
+      {
+        "name": "Flameturret",
+        "maxHealth": "9",
+        "pClass": "monster-turret",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Bullet",
+            "attackrange": "3-8",
+            "power": "3",
+            "priority": "4",
+            "description": "<br/>",
+            "chance": "1"
+          },
+          {
+            "name": "Whip",
+            "attackrange": "2-4",
+            "power": "4",
+            "priority": "4",
+            "description": "<b>After:</b> Push the opponent 3 spaces.",
+            "chance": "1"
+          },
+          {
+            "name": "Recalibrate",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "5",
+            "description": "<b>After:</b> You have +3 power and +2 priority next beat.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Gun Turret",
+        "maxHealth": "6",
+        "pClass": "monster-soundblaster",
+        "attribute": [
+          {
+            "name": "Remote Control",
+            "description": "You do not have to defeat this monster to clear a room."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Turret Snipe",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Turret Snipe",
+            "attackrange": "2",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Turret Snipe",
+            "attackrange": "3",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Turret Snipe",
+            "attackrange": "4",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Turret Snipe",
+            "attackrange": "5",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Turret Snipe",
+            "attackrange": "6",
+            "power": "5",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Protohomunculus",
+        "maxHealth": "8",
+        "pClass": "monster-poltergeist",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Creep",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Before:</b> Advance up to 2 spaces",
+            "chance": "3"
+          },
+          {
+            "name": "Whip",
+            "attackrange": "2-4",
+            "power": "3",
+            "priority": "3",
+            "description": "<b>Stun Guard 3</b>",
+            "chance": "2"
+          },
+          {
+            "name": "Smash",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Stun Guard 5</b><br/>\r\n<b>Damage:</b> The player swaps tag partners immediately.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Killbot",
+        "maxHealth": "15",
+        "pClass": "monster-walker",
+        "attribute": [
+          {
+            "name": "Heavily Armored",
+            "description": "Killbot cannot take more than 4 damage in a single beat. It checks for stun based off of the unmodified damage of the attack."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Charge",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "5",
+            "description": "<b>Stun Guard 4</b><br/>\r\n<b>Before:</b> Advance up to 2 spaces",
+            "chance": "2"
+          },
+          {
+            "name": "Steam Burst",
+            "attackrange": "1",
+            "power": "6",
+            "priority": "0",
+            "description": "<b>Stun Immunity</b><br/>\r\nPlayers cannot retreat",
+            "chance": "2"
+          },
+          {
+            "name": "Power Lance",
+            "attackrange": "1-3",
+            "power": "5",
+            "priority": "3",
+            "description": "<b>Stun Guard 5</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Beam Blast",
+            "attackrange": "1-6",
+            "power": "7",
+            "priority": "0",
+            "description": "<b>Stun Guard 3</b>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Security Hologram",
+        "maxHealth": "5",
+        "pClass": "monster-hologram",
+        "attribute": [
+          {
+            "name": "Incorporeal",
+            "description": "This monster is not hit by attacks and cannot take damage. It loses 1 life at the end of each beat <i>(It can be defeated by this loss of life)</i> It cannot lose life by any effect except for its own."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Elec Pulse A",
+            "attackrange": "5-8",
+            "power": "3",
+            "priority": "0",
+            "description": "<br/>",
+            "chance": "2"
+          },
+          {
+            "name": "Elect Pulse B",
+            "attackrange": "1-2, 7-8",
+            "power": "3",
+            "priority": "0",
+            "description": "<br/>",
+            "chance": "1"
+          },
+          {
+            "name": "Elec Pulse C",
+            "attackrange": "1-4",
+            "power": "3",
+            "priority": "0",
+            "description": "<br/>",
+            "chance": "2"
+          },
+          {
+            "name": "Elec Pulse D",
+            "attackrange": "3-6",
+            "power": "3",
+            "priority": "0",
+            "description": "<br/>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Homunculus",
+        "maxHealth": "7",
+        "pClass": "monster-homunculus",
+        "attribute": [
+          {
+            "name": "Regenerative",
+            "description": "A homunculus who is not hit during a beat regenerates 1 life."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Energy Bolt",
+            "attackrange": "2-5",
+            "power": "2",
+            "priority": "1",
+            "description": "<b>Start:</b> Retreat 1 space",
+            "chance": "2"
+          },
+          {
+            "name": "Shock",
+            "attackrange": "1",
+            "power": "1",
+            "priority": "3",
+            "description": "<b>Stun Guard 3</b><br/>\r\n<b>Before:</b> Advance 1 space<br/>\r\n<b>Hit:</b> Stun the opponent",
+            "chance": "2"
+          },
+          {
+            "name": "Tinker",
+            "attackrange": "1-2",
+            "power": "1",
+            "priority": "5",
+            "description": "<b>Soak 2</b><br/>\r\n<b>After:</b> All other Homunculi have +1 Power and regain 1 life.",
+            "chance": "1"
+          },
+          {
+            "name": "Activate",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "4",
+            "description": "<b>After:</b> Restore a defeated Homunculus to life. Place it in any space of the player's choice.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Kilgrem's Last Experiment",
+        "maxHealth": "40",
+        "pClass": "monster-servitor",
+        "attribute": [
+          {
+            "name": "Immobile",
+            "description": "Kilgrem's Last Experiment cannot be moved by any effect. Instead it loses 2 life each time it resists a movement effect."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Electric Screen",
+            "attackrange": "1-2",
+            "power": "6",
+            "priority": "5",
+            "description": "<b>Multi-attack</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Probe",
+            "attackrange": "1",
+            "power": "3",
+            "priority": "4",
+            "description": "<b>Stun Guard 5</b><br/>\r\nIgnore Soak and Stun Guard",
+            "chance": "1"
+          },
+          {
+            "name": "Wall Spikes",
+            "attackrange": "3",
+            "power": "6",
+            "priority": "1",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Ground Trap",
+            "attackrange": "2",
+            "power": "6",
+            "priority": "1",
+            "description": "<b>Stun Immunity</b>",
+            "chance": "1"
+          },
+          {
+            "name": "Energy Absorb",
+            "attackrange": "1-2",
+            "power": "3",
+            "priority": "4",
+            "description": "<b>Armor 3</b><br/>\r\n<b>Hit:</b> Regain 3 life.",
+            "chance": "1"
+          },
+          {
+            "name": "Roulette",
+            "attackrange": "1-3",
+            "power": "X",
+            "priority": "9",
+            "description": "<b>Hit:</b> Roll a die. The power of this attack is the result -2 (minimum of 0)",
+            "chance": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

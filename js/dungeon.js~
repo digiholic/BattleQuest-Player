@@ -1,0 +1,48 @@
+$(document).ready(function() {
+  $('.player-window').ready(function(){
+    $(this).each(function( index ) {
+      var classes = this.className.split(' ')
+      alert(classes);
+    });
+  });
+  
+  $('.panel-sprite').click(function() {
+    $(this).parent().toggleClass('selected');
+    $(this).parent().find('.arrow-bar').toggleClass('hidden');
+  });  
+  
+  $('.game-sprite').click(function() {
+    $(this).toggleClass('selected');
+  });
+  
+  $('.plus-button').click(function() {
+    var prog = $(this).parent().find('.progress');
+    var bar = prog.children(":first");
+    var health = bar.children(":first");
+    var healthString = health.html().split('/');
+    var maxHealth = parseInt(healthString.pop());
+    var currentHealth = parseInt(healthString.pop());
+    if (currentHealth < maxHealth){
+      health.html(++currentHealth + ' / ' + maxHealth);
+    }
+    
+    var healthPercent = (currentHealth / maxHealth) * 100;
+    bar.width(healthPercent+'%');
+  });
+  
+  $('.minus-button').click(function() {
+    var prog = $(this).parent().find('.progress');
+    var bar = prog.children(":first");
+    var health = bar.children(":first");
+    var healthString = health.html().split('/');
+    var maxHealth = parseInt(healthString.pop());
+    var currentHealth = parseInt(healthString.pop());
+    if (currentHealth > 0){
+      health.html(--currentHealth + ' / ' + maxHealth);
+    }
+    
+    var healthPercent = (currentHealth / maxHealth) * 100;
+    bar.width(healthPercent+'%');
+  });
+  
+});

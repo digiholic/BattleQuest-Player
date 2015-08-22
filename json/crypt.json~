@@ -1,0 +1,378 @@
+{
+  "dungeon": {
+    "name": "Baroness Ancella's Crypt",
+    "description": "Baroness Ancella lived centuries ago in the heart of Relecour. It is said that she was among the richest of the Relecan barons to have ever lived, and that she stored away that incredible wealth with her in a tomb deep below the foothills near her estate. Your quest is to delve into this haunted crypt and claim the treasures within.\r\n\r\nThis is a Solo Dungeon. Only one Hero will be in your party. You can equip this hero with up to 100 Gold of supplies from the armory.",
+    "tileset": "crypt",
+    "starting_gold": "100",
+    "total_characters": "1",
+    "tag": "1",
+    "floor": [
+      {
+        "name": "Zombie Room",
+        "startlocation": "1",
+        "description": "Bonus: Clear this room in 5 beats or less to regain 3 life.",
+        "floor_size": "large",
+        "monsters": "0,3;0,5;0,7;0,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "1",
+        "bg_classes": "1,crypt-door;2,crypt-torch;6,crypt-torch;8,crypt-torch;4,crypt-brace;7,crypt-brace"
+      },
+      {
+        "name": "Imp Room",
+        "startlocation": "2",
+        "description": "Bonus: Clear this room in 4 beats or less to regain 3 life.",
+        "floor_size": "large",
+        "monsters": "1,4;1,7;1,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "2",
+        "bg_classes": "2,crypt-door;6,crypt-torch;8,crypt-torch;4,crypt-brace;7,crypt-brace"
+      },
+      {
+        "name": "Whispering Room",
+        "startlocation": "5",
+        "description": "Bonus: Clear this room in 5 beats or less to take the route of your choice. Otherwise, go to Werewolves Den.",
+        "floor_size": "large",
+        "monsters": "2,2;2,4;2,7;2,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "3,4",
+        "bg_classes": "5,crypt-door;4,crypt-torch;6,crypt-torch;3,crypt-brace;7,crypt-brace"
+      },
+      {
+        "name": "Werewolves Den",
+        "startlocation": "5",
+        "description": "Bonus: Clear this room in 6 beats or less to start in any empty space you want in the next room.",
+        "floor_size": "large",
+        "monsters": "3,3;3,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "5",
+        "bg_classes": "5,crypt-door;4,crypt-torch;6,crypt-torch;3,crypt-brace;7,crypt-brace"
+      },
+      {
+        "name": "Filthy Ooze Room",
+        "startlocation": "3",
+        "description": "Bonus: If you clear this room in 10 beats or less, monsters in the next room have 3 less starting HP (to a minimum of 1).",
+        "floor_size": "large",
+        "monsters": "2,1;4,7;2,9",
+        "adds": "0",
+        "space_classes": "",
+        "next": "6",
+        "bg_classes": "3,crypt-door;9,crypt-torch;2,crypt-torchbrace;6,crypt-torchbrace"
+      },
+      {
+        "name": "Putrid Room",
+        "startlocation": "2",
+        "description": "This room is cleared as soon as the Ooze is defeated. When a zombie is defeated, place a new zombie in the furthest unoccupied space from your current position.",
+        "floor_size": "large",
+        "monsters": "0,5;0,9;4,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "7",
+        "bg_classes": "2,crypt-door;5,crypt-torch;6,crypt-torch;4,crypt-brace;7,crypt-brace"
+      },
+      {
+        "name": "Horde of Imps",
+        "startlocation": "3",
+        "description": "This room is cleared as soon as the Werewolf is defeated. When an imp is defeated, place a new imp in the furthest unoccupied space from the Werewolf.",
+        "floor_size": "large",
+        "monsters": "1,2;1,5;3,7",
+        "adds": "0",
+        "space_classes": "",
+        "next": "7",
+        "bg_classes": "3,crypt-door;2,crypt-torch;6,crypt-torch;8,crypt-torch;4,crypt-brace"
+      },
+      {
+        "name": "Baroness Ancella's Sarcophagus",
+        "startlocation": "2",
+        "description": "Red tiles behave like regular tiles outside of Ancella's effects.",
+        "floor_size": "medium",
+        "monsters": "5,6",
+        "adds": "1",
+        "next": "",
+        "space_classes": "3,space-red;4,space-red;6,space-red;7,space-red",
+        "bg_classes": "2,crypt-door;3,crypt-torch;4,crypt-torch;6,crypt-torch;7,crypt-torch"
+      }
+    ],
+    "monster": [
+      {
+        "name": "Zombie",
+        "maxHealth": "3",
+        "pClass": "monster-zombie",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Shamble",
+            "attackrange": "1",
+            "power": "1",
+            "priority": "0",
+            "description": "<b>Before:</b> Advance 1 space",
+            "chance": "3"
+          },
+          {
+            "name": "Lunge",
+            "attackrange": "1",
+            "power": "1",
+            "priority": "3",
+            "description": "<b>Before:</b> Advance 2 spaces.",
+            "chance": "2"
+          },
+          {
+            "name": "Bite",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "6",
+            "description": "<b>Stun Guard 4</b>",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Imp",
+        "maxHealth": "3",
+        "pClass": "monster-imp",
+        "attribute": [],
+        "attack": [
+          {
+            "name": "Rushdown",
+            "attackrange": "1",
+            "power": "2",
+            "priority": "3",
+            "description": "<b>Before:</b> Advance until adjacent to a player.",
+            "chance": "3"
+          },
+          {
+            "name": "Trick Knife",
+            "attackrange": "1-3",
+            "power": "1",
+            "priority": "4",
+            "description": "<b>Ignore Stun Guard</b>",
+            "chance": "2"
+          },
+          {
+            "name": "Imp Bomb",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "7",
+            "description": "<b>Hit:</b> Destroy this monster.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Dark Wisp",
+        "maxHealth": "3",
+        "pClass": "monster-dWisp",
+        "attribute": [
+          {
+            "name": "Incorporeal",
+            "description": "This monster cannot be hit by a player who moved during this beat."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Flicker",
+            "attackrange": "1",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          },
+          {
+            "name": "Flicker",
+            "attackrange": "2",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          },
+          {
+            "name": "Flicker",
+            "attackrange": "3",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          },
+          {
+            "name": "Flicker",
+            "attackrange": "4",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          },
+          {
+            "name": "Flicker",
+            "attackrange": "5",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          },
+          {
+            "name": "Flicker",
+            "attackrange": "6",
+            "power": "2",
+            "priority": "3",
+            "description": "<br />",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Werewolf",
+        "maxHealth": "12",
+        "pClass": "monster-wWolf",
+        "attribute": [
+          {
+            "name": "Rage",
+            "description": "This monster has +2 power to all attacks for the rest of a duel whenever another Werewolf is killed."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Crossover",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "4",
+            "description": "<b>Before:</b> Advance until you switch sides with the opponent, or as far as possible.",
+            "chance": "2"
+          },
+          {
+            "name": "Wall Leap",
+            "attackrange": "1",
+            "power": "4",
+            "priority": "1",
+            "description": "<b>Start:</b> Retreat as far as possible.\r\n<b>Before:</b> Advance up to 4 spaces.",
+            "chance": "2"
+          },
+          {
+            "name": "Counter Claw",
+            "attackrange": "1-2",
+            "power": "3",
+            "priority": "0",
+            "description": "<b>Soak 3, Stun Guard 3</b>\r\nThis attack has +4 power if you took damage.",
+            "chance": "1"
+          },
+          {
+            "name": "Regeneration",
+            "attackrange": "-",
+            "power": "-",
+            "priority": "4",
+            "description": "<b>After:</b> Regain 4 life, and you have +2 Power next beat.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Vile Ooze",
+        "maxHealth": "14",
+        "pClass": "monster-ooze",
+        "attribute": [
+          {
+            "name": "Lurch",
+            "description": "Each time you move into a space adjacent to this monster, you lose 1 life.<br /><br />\r\nEach time this monster moves into a space adjacent to you, you lose 1 life."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Rollout",
+            "attackrange": "1",
+            "power": "5",
+            "priority": "2",
+            "description": "<b>Before:</b> Advance up to 3 spaces.",
+            "chance": "2"
+          },
+          {
+            "name": "Vile Miasma",
+            "attackrange": "1-8",
+            "power": "4",
+            "priority": "0",
+            "description": "<b>Stun Guard 3</b>",
+            "chance": "2"
+          },
+          {
+            "name": "Congeal",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "0",
+            "description": "<b>Soak 2, Stun Guard 2</b>\r\n<b>Before:</b> Advance up to 2 spaces.",
+            "chance": "1"
+          },
+          {
+            "name": "Slime Launch",
+            "attackrange": "1",
+            "power": "6",
+            "priority": "6",
+            "description": "<b>Hit:</b> Push the opponent 4 spaces.",
+            "chance": "1"
+          }
+        ]
+      },
+      {
+        "name": "Ancella's Ghost",
+        "maxHealth": "22",
+        "pClass": "monster-ancella",
+        "attribute": [
+          {
+            "name": "Incorporeal",
+            "description": "While Ancella's Ghost stands on a red space, she can only be hit by a player on a red space.\r\n\r\nWhen Ancella's Ghost stands on a normal space, she can only be hit by a player on a normal space."
+          }
+        ],
+        "attack": [
+          {
+            "name": "Wail",
+            "attackrange": "1-4",
+            "power": "3",
+            "priority": "4",
+            "description": "<b>Ignore Stun Guard</b><br />\r\n<b>Stun Guard 5</b><br />\r\n<b>After:</b> Retreat 1 space",
+            "chance": "1"
+          },
+          {
+            "name": "Enervation",
+            "attackrange": "3-6",
+            "power": "4",
+            "priority": "0",
+            "description": "<b>Before:</b> Move directly to the red space furthest from the player.<br />\r\n<b>Damage:</b> The opponent has -2 power next beat.",
+            "chance": "1"
+          },
+          {
+            "name": "Living Death",
+            "attackrange": "2-3",
+            "power": "4",
+            "priority": "3",
+            "description": "<b>Stun Immunity</b><br />\r\n<b>Start:</b> Advance until the opponent is in range.",
+            "chance": "1"
+          },
+          {
+            "name": "Scream",
+            "attackrange": "1-8",
+            "power": "1",
+            "priority": "7",
+            "description": "<b>Ignore Stun Guard</b><br />\r\n<b>After:</b> Place a Dark Wisp in the furthest unoccupied space on the board.",
+            "chance": "1"
+          },
+          {
+            "name": "Phantasm",
+            "attackrange": "1-2",
+            "power": "4",
+            "priority": "4",
+            "description": "<b>Start:</b> Advance until you are standing on a different colored space than the nearest opponent.",
+            "chance": "5"
+          },
+          {
+            "name": "Soul Rip",
+            "attackrange": "X",
+            "power": "7",
+            "priority": "6",
+            "description": "<b>Ignore Soak</b><br />\r\nThis attack's range is all spaces of the type opposite to what you are on.",
+            "chance": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

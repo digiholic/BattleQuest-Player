@@ -1,0 +1,211 @@
+body {
+  position: relative;
+  background-image: url('../assets/Background_IndinesMapBG.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #baad8b;
+  font-family: Georgia;
+  margin: 0px;
+  padding: 0px;
+  min-height: 768px;
+  height: 100%;
+  
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+}
+
+.opacity80 {
+  background-image: url('../assets/Background_80PercentOpacity.png');
+}
+
+.game-panel {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.game-panel.selected{
+  border: 3px solid yellow;
+}
+
+.space {
+  height: 192px;
+  width: 96px;
+  background-image: url('../assets/panel_test.png');
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.space-row{
+  width: 100%;
+  margin: 0 auto;
+  bottom: 0;
+  position: absolute;
+}
+
+.game-sprite {
+  position: absolute;
+  height: 96px;
+  width: 96px;
+  margin-top: -50px;
+}
+
+.game-sprite.selected{
+  border: 3px solid yellow;
+}
+.flipped-image {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+#mainGameWindow{
+  width: 700px;
+  height: 300px;
+  position: relative;
+}
+
+#player-window{
+  float: left;
+}
+
+#monster-window{
+  float: right;
+}
+
+#attack-window{
+  height: 200px;
+  width: 700px;
+  display: inline-block;
+  position: relative;
+}
+.column-window{
+  width: 220px;
+  height: 100vh;
+  display: block;
+  right: 0px;
+  overflow-y: auto;
+}
+
+.row-window{
+  width: auto;
+  position: relative;
+  display: inline-block;
+}
+.bordered-window{
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+h1.name-plate {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.healthbar { 
+  width: 80%;
+  float: right;
+}
+
+.progress {
+  background-color: #800000;
+  text-align: center;
+  width: 60%;
+  float: right;
+}
+
+.minus-button {
+  float: right;
+  margin-right: 5px;
+}
+
+.plus-button {
+  float: right;
+  margin-left: 5px;
+}
+
+.arrow-bar {
+  width: 40%;
+  float: left;
+  padding-top: 10px;
+  margin-left: 0px;
+}
+
+.left-arrow {
+  float: left;
+  margin-left: 5px;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.right-arrow {
+  float: left;
+  margin-left: 5px;
+}
+
+.progress div.progress-bar {
+  background-color: #008000;
+}
+
+.panel-sprite{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-left: -20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: pixelated;
+}
+
+.monster-explorer{
+  background-image: url('../assets/Monsters/Explorer.png');
+}
+
+.player-hikaru{
+  background-image: url('../assets/Heroes/War/Hikaru.png');
+}
+
+/**
+ * Progress bars with centered text
+ */
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+ 
+ img { 
+    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
